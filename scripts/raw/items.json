@@ -1,0 +1,582 @@
+[
+ {
+  "slug": "cake",
+  "name": "Cake",
+  "image": "/images/item/cake.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give 2 random monsters +5 Damage."
+ },
+ {
+  "slug": "coupon",
+  "name": "Coupon",
+  "image": "/images/item/coupon.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reduce the cost of monsters in your shop by 3."
+ },
+ {
+  "slug": "fake-coin",
+  "name": "Fake Coin",
+  "image": "/images/item/fake_coin.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Gain 1 free reroll."
+ },
+ {
+  "slug": "gold-potion",
+  "name": "Gold Potion",
+  "image": "/images/item/gold_potion.png",
+  "rarity": "Common",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 0,
+  "text": "Gain $10."
+ },
+ {
+  "slug": "gray-chip",
+  "name": "Gray Chip",
+  "image": "/images/item/gray_chip.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "If you win the next battle, gain $15."
+ },
+ {
+  "slug": "green-stone",
+  "name": "Green Stone",
+  "image": "/images/item/green_stone.png",
+  "rarity": "Common",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 0,
+  "text": "Transform a random Common monster into an Uncommon monster."
+ },
+ {
+  "slug": "growth-potion",
+  "name": "Growth Potion",
+  "image": "/images/item/growth_potion.png",
+  "rarity": "Common",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Give each of your monsters a small amount of Damage, Poison or Burn."
+ },
+ {
+  "slug": "summon-potion",
+  "name": "Summon Potion",
+  "image": "/images/item/summon_potion.png",
+  "rarity": "Common",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 10,
+  "text": "Gain a random level 2 Common monster. It has no sell value."
+ },
+ {
+  "slug": "voucher",
+  "name": "Voucher",
+  "image": "/images/item/voucher.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 5,
+  "text": "Buy a random monster from the shop for free."
+ },
+ {
+  "slug": "apex-bait",
+  "name": "Apex Bait",
+  "image": "/images/item/apex_bait.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 20,
+  "text": "Rank up the shop."
+ },
+ {
+  "slug": "dowsing-rod",
+  "name": "Dowsing Rod",
+  "image": "/images/item/dowsing_rod.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 15,
+  "text": "Choose a Common Trinket gift."
+ },
+ {
+  "slug": "fate-potion",
+  "name": "Fate Potion",
+  "image": "/images/item/fate_potion.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Double the base sell value of all your monsters, then sell them. Gain shop rank +1 and 8 free rerolls."
+ },
+ {
+  "slug": "feast",
+  "name": "Feast",
+  "image": "/images/item/feast.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your monsters +5 Damage."
+ },
+ {
+  "slug": "gray-ticket",
+  "name": "Gray Ticket",
+  "image": "/images/item/gray_ticket.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Common monsters."
+ },
+ {
+  "slug": "green-ticket",
+  "name": "Green Ticket",
+  "image": "/images/item/green_ticket.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Uncommon monsters."
+ },
+ {
+  "slug": "mini-rainbow-potion",
+  "name": "Mini Rainbow Potion",
+  "image": "/images/item/mini_rainbow_potion.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Give a random monster with 2 or fewer types a random extra type. You can use 1 more item(s) today."
+ },
+ {
+  "slug": "mushroom-potion",
+  "name": "Mushroom Potion",
+  "image": "/images/item/mushroom_potion.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 10,
+  "text": "Gain the lowest cost monster in your shop and level it up."
+ },
+ {
+  "slug": "nana-berry",
+  "name": "Nana Berry",
+  "image": "/images/item/nana_berry.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 1,
+  "text": "Give the bottom right monster +5% Cooldown Speed. You can use 1 more item(s) today."
+ },
+ {
+  "slug": "pom-berry",
+  "name": "Pom Berry",
+  "image": "/images/item/pom_berry.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 1,
+  "text": "Give the bottom right monster +8 Damage. You can use 1 more item(s) today."
+ },
+ {
+  "slug": "red-coin",
+  "name": "Red Coin",
+  "image": "/images/item/red_coin.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "+$20 and lose 1 life."
+ },
+ {
+  "slug": "basic-candy",
+  "name": "Basic Candy",
+  "image": "/images/item/basic_candy.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 30,
+  "text": "Level up a random level 1 Common or Uncommon monster."
+ },
+ {
+  "slug": "battery-pack",
+  "name": "Battery Pack",
+  "image": "/images/item/battery_pack.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Electric monsters +1 Shock."
+ },
+ {
+  "slug": "black-sludge",
+  "name": "Black Sludge",
+  "image": "/images/item/black_sludge.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Toxic monsters +1 Poison."
+ },
+ {
+  "slug": "blood-potion",
+  "name": "Blood Potion",
+  "image": "/images/item/blood_potion.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "Gain $5 for each Life you lost this game."
+ },
+ {
+  "slug": "blue-ticket",
+  "name": "Blue Ticket",
+  "image": "/images/item/blue_ticket.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Rare monsters."
+ },
+ {
+  "slug": "gold-powder",
+  "name": "Gold Powder",
+  "image": "/images/item/gold_powder.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "Give a random monster +20 Sell Value."
+ },
+ {
+  "slug": "hot-pepper",
+  "name": "Hot Pepper",
+  "image": "/images/item/hot_pepper.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Fire monsters +1 Burn."
+ },
+ {
+  "slug": "lucky-coin",
+  "name": "Lucky Coin",
+  "image": "/images/item/lucky_coin.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 0,
+  "text": "Gain $3. You can use 1 more item(s) today."
+ },
+ {
+  "slug": "mystic-pearl",
+  "name": "Mystic Pearl",
+  "image": "/images/item/mystic_pearl.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Water monsters +15 Heal."
+ },
+ {
+  "slug": "portal-potion",
+  "name": "Portal Potion",
+  "image": "/images/item/portal_potion.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "All shops today will contain monsters from other regions. You can use 1 more item(s) today."
+ },
+ {
+  "slug": "shiny-pebble",
+  "name": "Shiny Pebble",
+  "image": "/images/item/shiny_pebble.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Rock monsters +20 Shield."
+ },
+ {
+  "slug": "shiny-potion",
+  "name": "Shiny Potion",
+  "image": "/images/item/shiny_potion.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 0,
+  "text": "Turn a random monster SHINY."
+ },
+ {
+  "slug": "coffee",
+  "name": "Coffee",
+  "image": "/images/item/coffee.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 5,
+  "text": "At the start of the next battle, Batomon On Battle Start abilities activate an additional time."
+ },
+ {
+  "slug": "focus-pill",
+  "name": "Focus Pill",
+  "image": "/images/item/focus_pill.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Your monsters with no abilities gain +15% Cooldown Speed."
+ },
+ {
+  "slug": "glamour-potion",
+  "name": "Glamour Potion",
+  "image": "/images/item/glamour_potion.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 10,
+  "text": "Give your monsters +30 Sell Value, except those with no sell value."
+ },
+ {
+  "slug": "lootbox",
+  "name": "Lootbox",
+  "image": "/images/item/lootbox.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 30,
+  "text": "Get a random Legendary monster."
+ },
+ {
+  "slug": "potion-pack",
+  "name": "Potion Pack",
+  "image": "/images/item/potion_pack.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Roll a shop of potions. You can only buy one."
+ },
+ {
+  "slug": "purple-gift",
+  "name": "Purple Gift",
+  "image": "/images/item/purple_gift.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 40,
+  "text": "Gain a random Super Rare Trinket."
+ },
+ {
+  "slug": "purple-ticket",
+  "name": "Purple Ticket",
+  "image": "/images/item/purple_ticket.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Super Rare monsters."
+ },
+ {
+  "slug": "rainbow-potion",
+  "name": "Rainbow Potion",
+  "image": "/images/item/rainbow_potion.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Give all your monsters with 2 or fewer types a random extra type. You can use 1 more item(s) today."
+ },
+ {
+  "slug": "recruiting-flyer",
+  "name": "Recruiting Flyer",
+  "image": "/images/item/recruiting_flyer.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 90,
+  "text": "Get a random level 3 Uncommon monster."
+ },
+ {
+  "slug": "tote-bag",
+  "name": "Tote Bag",
+  "image": "/images/item/tote_bag.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "You can use 2 more item(s) today."
+ },
+ {
+  "slug": "glimmer-potion",
+  "name": "Glimmer Potion",
+  "image": "/images/item/glimmer_potion.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 6,
+  "text": "All monsters in your shop this turn are SHINY."
+ },
+ {
+  "slug": "golden-gift",
+  "name": "Golden Gift",
+  "image": "/images/item/golden_gift.png",
+  "rarity": "Legendary",
+  "attributes": [],
+  "regions": [],
+  "cost": 50,
+  "text": "Gain a random Legendary Trinket."
+ },
+ {
+  "slug": "golden-ticket",
+  "name": "Golden Ticket",
+  "image": "/images/item/golden_ticket.png",
+  "rarity": "Legendary",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Legendary monsters."
+ },
+ {
+  "slug": "legendary-potion",
+  "name": "Legendary Potion",
+  "image": "/images/item/legendary_potion.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "Fill your team and bench with random Legendary monsters. They have no sell value."
+ },
+ {
+  "slug": "magic-lasso",
+  "name": "Magic Lasso",
+  "image": "/images/item/magic_lasso.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 50,
+  "text": "Gain an exact copy of the enemy's top middle Batomon in the next battle."
+ },
+ {
+  "slug": "mirror-potion",
+  "name": "Mirror Potion",
+  "image": "/images/item/mirror_potion.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "Roll a shop that contains only monsters on your team and bench."
+ },
+ {
+  "slug": "rare-candy",
+  "name": "Rare Candy",
+  "image": "/images/item/rare_candy.png",
+  "rarity": "Legendary",
+  "attributes": [],
+  "regions": [],
+  "cost": 40,
+  "text": "Level up a random level 1 monster."
+ },
+ {
+  "slug": "black-feather",
+  "name": "Black Feather",
+  "image": "/images/item/black_feather.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 30,
+  "text": "Give 1 random monsters +1 Multicast."
+ },
+ {
+  "slug": "crimson-gift",
+  "name": "Crimson Gift",
+  "image": "/images/item/crimson_gift.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 70,
+  "text": "Gain a random Mythical Trinket."
+ },
+ {
+  "slug": "crimson-ticket",
+  "name": "Crimson Ticket",
+  "image": "/images/item/crimson_ticket.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 30,
+  "text": "Reroll a shop with all Mythical monsters."
+ },
+ {
+  "slug": "shiny-berry",
+  "name": "Shiny Berry",
+  "image": "/images/item/shiny_berry.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 1,
+  "text": "Turn a random monster SHINY. You can use 1 more item(s) today."
+ },
+ {
+  "slug": "ultra-candy",
+  "name": "Ultra Candy",
+  "image": "/images/item/ultra_candy.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 60,
+  "text": "Level up a random level 3 monster."
+ }
+]

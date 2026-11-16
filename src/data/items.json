@@ -1,0 +1,636 @@
+[
+ {
+  "slug": "cake",
+  "name": "Cake",
+  "image": "/images/item/cake.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give 2 random monsters +5 Damage.",
+  "textTh": "ให้มอนสเตอร์แบบสุ่ม 2 ตัว +5 ดาเมจ"
+ },
+ {
+  "slug": "coupon",
+  "name": "Coupon",
+  "image": "/images/item/coupon.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reduce the cost of monsters in your shop by 3.",
+  "textTh": "ลดราคามอนสเตอร์ในร้านค้าของคุณลง 3"
+ },
+ {
+  "slug": "fake-coin",
+  "name": "Fake Coin",
+  "image": "/images/item/fake_coin.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Gain 1 free reroll.",
+  "textTh": "ได้รีโรลฟรี 1 ครั้ง"
+ },
+ {
+  "slug": "gold-potion",
+  "name": "Gold Potion",
+  "image": "/images/item/gold_potion.png",
+  "rarity": "Common",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 0,
+  "text": "Gain $10.",
+  "textTh": "ได้รับ $10"
+ },
+ {
+  "slug": "gray-chip",
+  "name": "Gray Chip",
+  "image": "/images/item/gray_chip.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "If you win the next battle, gain $15.",
+  "textTh": "ถ้าคุณชนะการต่อสู้ครั้งถัดไป ได้รับ $15"
+ },
+ {
+  "slug": "green-stone",
+  "name": "Green Stone",
+  "image": "/images/item/green_stone.png",
+  "rarity": "Common",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 0,
+  "text": "Transform a random Common monster into an Uncommon monster.",
+  "textTh": "แปลงมอนสเตอร์ระดับธรรมดาแบบสุ่ม 1 ตัวเป็นมอนสเตอร์ระดับไม่ธรรมดา"
+ },
+ {
+  "slug": "growth-potion",
+  "name": "Growth Potion",
+  "image": "/images/item/growth_potion.png",
+  "rarity": "Common",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Give each of your monsters a small amount of Damage, Poison or Burn.",
+  "textTh": "ให้มอนสเตอร์แต่ละตัวของคุณได้รับดาเมจ พิษ หรือเผาไหม้ เพิ่มเล็กน้อย"
+ },
+ {
+  "slug": "summon-potion",
+  "name": "Summon Potion",
+  "image": "/images/item/summon_potion.png",
+  "rarity": "Common",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 10,
+  "text": "Gain a random level 2 Common monster. It has no sell value.",
+  "textTh": "ได้รับมอนสเตอร์ระดับธรรมดาเลเวล 2 แบบสุ่ม 1 ตัว (ไม่มีมูลค่าขาย)"
+ },
+ {
+  "slug": "voucher",
+  "name": "Voucher",
+  "image": "/images/item/voucher.png",
+  "rarity": "Common",
+  "attributes": [],
+  "regions": [],
+  "cost": 5,
+  "text": "Buy a random monster from the shop for free.",
+  "textTh": "ซื้อมอนสเตอร์แบบสุ่ม 1 ตัวจากร้านค้าได้ฟรี"
+ },
+ {
+  "slug": "apex-bait",
+  "name": "Apex Bait",
+  "image": "/images/item/apex_bait.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 20,
+  "text": "Rank up the shop.",
+  "textTh": "เพิ่มแรงก์ร้านค้า"
+ },
+ {
+  "slug": "dowsing-rod",
+  "name": "Dowsing Rod",
+  "image": "/images/item/dowsing_rod.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 15,
+  "text": "Choose a Common Trinket gift.",
+  "textTh": "เลือกของขวัญทริงเก็ตระดับธรรมดา 1 ชิ้น"
+ },
+ {
+  "slug": "fate-potion",
+  "name": "Fate Potion",
+  "image": "/images/item/fate_potion.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Double the base sell value of all your monsters, then sell them. Gain shop rank +1 and 8 free rerolls.",
+  "textTh": "เพิ่มมูลค่าขายพื้นฐานของมอนสเตอร์ทุกตัวของคุณเป็น 2 เท่าแล้วขายทั้งหมด ได้แรงก์ร้านค้า +1 และรีโรลฟรี 8 ครั้ง"
+ },
+ {
+  "slug": "feast",
+  "name": "Feast",
+  "image": "/images/item/feast.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your monsters +5 Damage.",
+  "textTh": "ให้มอนสเตอร์ของคุณ +5 ดาเมจ"
+ },
+ {
+  "slug": "gray-ticket",
+  "name": "Gray Ticket",
+  "image": "/images/item/gray_ticket.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Common monsters.",
+  "textTh": "รีโรลร้านค้าที่มีแต่มอนสเตอร์ระดับธรรมดา"
+ },
+ {
+  "slug": "green-ticket",
+  "name": "Green Ticket",
+  "image": "/images/item/green_ticket.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Uncommon monsters.",
+  "textTh": "รีโรลร้านค้าที่มีแต่มอนสเตอร์ระดับไม่ธรรมดา"
+ },
+ {
+  "slug": "mini-rainbow-potion",
+  "name": "Mini Rainbow Potion",
+  "image": "/images/item/mini_rainbow_potion.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Give a random monster with 2 or fewer types a random extra type. You can use 1 more item(s) today.",
+  "textTh": "ให้มอนสเตอร์แบบสุ่มที่มีธาตุไม่เกิน 2 ธาตุ ได้ธาตุเพิ่ม 1 ธาตุแบบสุ่ม และคุณใช้ไอเท็มได้เพิ่มอีก 1 ชิ้นในวันนี้"
+ },
+ {
+  "slug": "mushroom-potion",
+  "name": "Mushroom Potion",
+  "image": "/images/item/mushroom_potion.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 10,
+  "text": "Gain the lowest cost monster in your shop and level it up.",
+  "textTh": "ได้รับมอนสเตอร์ที่ราคาถูกที่สุดในร้านค้าของคุณ และเลเวลอัปให้ตัวนั้น"
+ },
+ {
+  "slug": "nana-berry",
+  "name": "Nana Berry",
+  "image": "/images/item/nana_berry.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 1,
+  "text": "Give the bottom right monster +5% Cooldown Speed. You can use 1 more item(s) today.",
+  "textTh": "ให้มอนสเตอร์ตำแหน่งล่างขวา +5% ความเร็วคูลดาวน์ และคุณใช้ไอเท็มได้เพิ่มอีก 1 ชิ้นในวันนี้"
+ },
+ {
+  "slug": "pom-berry",
+  "name": "Pom Berry",
+  "image": "/images/item/pom_berry.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 1,
+  "text": "Give the bottom right monster +8 Damage. You can use 1 more item(s) today.",
+  "textTh": "ให้มอนสเตอร์ตำแหน่งล่างขวา +8 ดาเมจ และคุณใช้ไอเท็มได้เพิ่มอีก 1 ชิ้นในวันนี้"
+ },
+ {
+  "slug": "red-coin",
+  "name": "Red Coin",
+  "image": "/images/item/red_coin.png",
+  "rarity": "Uncommon",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "+$20 and lose 1 life.",
+  "textTh": "+$20 และเสียชีวิต 1 ชีวิต"
+ },
+ {
+  "slug": "basic-candy",
+  "name": "Basic Candy",
+  "image": "/images/item/basic_candy.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 30,
+  "text": "Level up a random level 1 Common or Uncommon monster.",
+  "textTh": "เลเวลอัปมอนสเตอร์ระดับธรรมดาหรือไม่ธรรมดาเลเวล 1 แบบสุ่ม 1 ตัว"
+ },
+ {
+  "slug": "battery-pack",
+  "name": "Battery Pack",
+  "image": "/images/item/battery_pack.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Electric monsters +1 Shock.",
+  "textTh": "ให้มอนสเตอร์ธาตุไฟฟ้าของคุณ +1 ช็อต"
+ },
+ {
+  "slug": "black-sludge",
+  "name": "Black Sludge",
+  "image": "/images/item/black_sludge.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Toxic monsters +1 Poison.",
+  "textTh": "ให้มอนสเตอร์ธาตุพิษของคุณ +1 พิษ"
+ },
+ {
+  "slug": "blood-potion",
+  "name": "Blood Potion",
+  "image": "/images/item/blood_potion.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "Gain $5 for each Life you lost this game.",
+  "textTh": "ได้รับ $5 ต่อชีวิตที่เสียไปในเกมนี้ 1 ชีวิต"
+ },
+ {
+  "slug": "blue-ticket",
+  "name": "Blue Ticket",
+  "image": "/images/item/blue_ticket.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Rare monsters.",
+  "textTh": "รีโรลร้านค้าที่มีแต่มอนสเตอร์ระดับหายาก"
+ },
+ {
+  "slug": "gold-powder",
+  "name": "Gold Powder",
+  "image": "/images/item/gold_powder.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "Give a random monster +20 Sell Value.",
+  "textTh": "ให้มอนสเตอร์แบบสุ่ม 1 ตัว +20 มูลค่าขาย"
+ },
+ {
+  "slug": "hot-pepper",
+  "name": "Hot Pepper",
+  "image": "/images/item/hot_pepper.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Fire monsters +1 Burn.",
+  "textTh": "ให้มอนสเตอร์ธาตุไฟของคุณ +1 เผาไหม้"
+ },
+ {
+  "slug": "lucky-coin",
+  "name": "Lucky Coin",
+  "image": "/images/item/lucky_coin.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 0,
+  "text": "Gain $3. You can use 1 more item(s) today.",
+  "textTh": "ได้รับ $3 และใช้ไอเท็มได้เพิ่มอีก 1 ชิ้นในวันนี้"
+ },
+ {
+  "slug": "mystic-pearl",
+  "name": "Mystic Pearl",
+  "image": "/images/item/mystic_pearl.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Water monsters +15 Heal.",
+  "textTh": "ให้มอนสเตอร์ธาตุน้ำของคุณ +15 ฮีล"
+ },
+ {
+  "slug": "portal-potion",
+  "name": "Portal Potion",
+  "image": "/images/item/portal_potion.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "All shops today will contain monsters from other regions. You can use 1 more item(s) today.",
+  "textTh": "ร้านค้าทั้งหมดในวันนี้จะมีมอนสเตอร์จากภูมิภาคอื่น และคุณใช้ไอเท็มได้เพิ่มอีก 1 ชิ้นในวันนี้"
+ },
+ {
+  "slug": "shiny-pebble",
+  "name": "Shiny Pebble",
+  "image": "/images/item/shiny_pebble.png",
+  "rarity": "Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Give your Rock monsters +20 Shield.",
+  "textTh": "ให้มอนสเตอร์ธาตุหินของคุณ +20 โล่"
+ },
+ {
+  "slug": "shiny-potion",
+  "name": "Shiny Potion",
+  "image": "/images/item/shiny_potion.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 0,
+  "text": "Turn a random monster SHINY.",
+  "textTh": "เปลี่ยนมอนสเตอร์แบบสุ่ม 1 ตัวให้เป็น SHINY"
+ },
+ {
+  "slug": "coffee",
+  "name": "Coffee",
+  "image": "/images/item/coffee.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 5,
+  "text": "At the start of the next battle, Batomon On Battle Start abilities activate an additional time.",
+  "textTh": "เมื่อเริ่มการต่อสู้ครั้งถัดไป ความสามารถ \"เมื่อเริ่มการต่อสู้\" ของ Batomon จะทำงานเพิ่มอีก 1 ครั้ง"
+ },
+ {
+  "slug": "focus-pill",
+  "name": "Focus Pill",
+  "image": "/images/item/focus_pill.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Your monsters with no abilities gain +15% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ของคุณที่ไม่มีความสามารถได้ +15% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "glamour-potion",
+  "name": "Glamour Potion",
+  "image": "/images/item/glamour_potion.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 10,
+  "text": "Give your monsters +30 Sell Value, except those with no sell value.",
+  "textTh": "ให้มอนสเตอร์ของคุณ +30 มูลค่าขาย (ยกเว้นตัวที่ไม่มีมูลค่าขาย)"
+ },
+ {
+  "slug": "lootbox",
+  "name": "Lootbox",
+  "image": "/images/item/lootbox.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 30,
+  "text": "Get a random Legendary monster.",
+  "textTh": "ได้รับมอนสเตอร์ระดับตำนานแบบสุ่ม 1 ตัว"
+ },
+ {
+  "slug": "potion-pack",
+  "name": "Potion Pack",
+  "image": "/images/item/potion_pack.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Roll a shop of potions. You can only buy one.",
+  "textTh": "สุ่มร้านค้าที่มีแต่ยา (Potion) คุณซื้อได้เพียง 1 ขวด"
+ },
+ {
+  "slug": "purple-gift",
+  "name": "Purple Gift",
+  "image": "/images/item/purple_gift.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 40,
+  "text": "Gain a random Super Rare Trinket.",
+  "textTh": "ได้รับทริงเก็ตระดับหายากมากแบบสุ่ม 1 ชิ้น"
+ },
+ {
+  "slug": "purple-ticket",
+  "name": "Purple Ticket",
+  "image": "/images/item/purple_ticket.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Super Rare monsters.",
+  "textTh": "รีโรลร้านค้าที่มีแต่มอนสเตอร์ระดับหายากมาก"
+ },
+ {
+  "slug": "rainbow-potion",
+  "name": "Rainbow Potion",
+  "image": "/images/item/rainbow_potion.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 1,
+  "text": "Give all your monsters with 2 or fewer types a random extra type. You can use 1 more item(s) today.",
+  "textTh": "ให้มอนสเตอร์ทุกตัวของคุณที่มีธาตุไม่เกิน 2 ธาตุ ได้ธาตุเพิ่ม 1 ธาตุแบบสุ่ม และคุณใช้ไอเท็มได้เพิ่มอีก 1 ชิ้นในวันนี้"
+ },
+ {
+  "slug": "recruiting-flyer",
+  "name": "Recruiting Flyer",
+  "image": "/images/item/recruiting_flyer.png",
+  "rarity": "Super Rare",
+  "attributes": [],
+  "regions": [],
+  "cost": 90,
+  "text": "Get a random level 3 Uncommon monster.",
+  "textTh": "ได้รับมอนสเตอร์ระดับไม่ธรรมดาเลเวล 3 แบบสุ่ม 1 ตัว"
+ },
+ {
+  "slug": "tote-bag",
+  "name": "Tote Bag",
+  "image": "/images/item/tote_bag.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "You can use 2 more item(s) today.",
+  "textTh": "คุณใช้ไอเท็มได้เพิ่มอีก 2 ชิ้นในวันนี้"
+ },
+ {
+  "slug": "glimmer-potion",
+  "name": "Glimmer Potion",
+  "image": "/images/item/glimmer_potion.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 6,
+  "text": "All monsters in your shop this turn are SHINY.",
+  "textTh": "มอนสเตอร์ทุกตัวในร้านค้าของคุณเทิร์นนี้เป็น SHINY"
+ },
+ {
+  "slug": "golden-gift",
+  "name": "Golden Gift",
+  "image": "/images/item/golden_gift.png",
+  "rarity": "Legendary",
+  "attributes": [],
+  "regions": [],
+  "cost": 50,
+  "text": "Gain a random Legendary Trinket.",
+  "textTh": "ได้รับทริงเก็ตระดับตำนานแบบสุ่ม 1 ชิ้น"
+ },
+ {
+  "slug": "golden-ticket",
+  "name": "Golden Ticket",
+  "image": "/images/item/golden_ticket.png",
+  "rarity": "Legendary",
+  "attributes": [],
+  "regions": [],
+  "cost": 0,
+  "text": "Reroll a shop with all Legendary monsters.",
+  "textTh": "รีโรลร้านค้าที่มีแต่มอนสเตอร์ระดับตำนาน"
+ },
+ {
+  "slug": "legendary-potion",
+  "name": "Legendary Potion",
+  "image": "/images/item/legendary_potion.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "Fill your team and bench with random Legendary monsters. They have no sell value.",
+  "textTh": "เติมทีมและม้านั่งสำรองของคุณจนเต็มด้วยมอนสเตอร์ระดับตำนานแบบสุ่ม (ไม่มีมูลค่าขาย)"
+ },
+ {
+  "slug": "magic-lasso",
+  "name": "Magic Lasso",
+  "image": "/images/item/magic_lasso.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Appears once per day"
+  ],
+  "regions": [],
+  "cost": 50,
+  "text": "Gain an exact copy of the enemy's top middle Batomon in the next battle.",
+  "textTh": "ได้รับสำเนาแบบเดียวกันทุกประการของ Batomon ตำแหน่งบนตรงกลางของศัตรูในการต่อสู้ครั้งถัดไป"
+ },
+ {
+  "slug": "mirror-potion",
+  "name": "Mirror Potion",
+  "image": "/images/item/mirror_potion.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Witch Potion"
+  ],
+  "regions": [],
+  "cost": 5,
+  "text": "Roll a shop that contains only monsters on your team and bench.",
+  "textTh": "สุ่มร้านค้าที่มีเฉพาะมอนสเตอร์ที่อยู่ในทีมและม้านั่งสำรองของคุณ"
+ },
+ {
+  "slug": "rare-candy",
+  "name": "Rare Candy",
+  "image": "/images/item/rare_candy.png",
+  "rarity": "Legendary",
+  "attributes": [],
+  "regions": [],
+  "cost": 40,
+  "text": "Level up a random level 1 monster.",
+  "textTh": "เลเวลอัปมอนสเตอร์เลเวล 1 แบบสุ่ม 1 ตัว"
+ },
+ {
+  "slug": "black-feather",
+  "name": "Black Feather",
+  "image": "/images/item/black_feather.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 30,
+  "text": "Give 1 random monsters +1 Multicast.",
+  "textTh": "ให้มอนสเตอร์แบบสุ่ม 1 ตัว +1 มัลติแคสต์"
+ },
+ {
+  "slug": "crimson-gift",
+  "name": "Crimson Gift",
+  "image": "/images/item/crimson_gift.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 70,
+  "text": "Gain a random Mythical Trinket.",
+  "textTh": "ได้รับทริงเก็ตระดับเทพนิยายแบบสุ่ม 1 ชิ้น"
+ },
+ {
+  "slug": "crimson-ticket",
+  "name": "Crimson Ticket",
+  "image": "/images/item/crimson_ticket.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 30,
+  "text": "Reroll a shop with all Mythical monsters.",
+  "textTh": "รีโรลร้านค้าที่มีแต่มอนสเตอร์ระดับเทพนิยาย"
+ },
+ {
+  "slug": "shiny-berry",
+  "name": "Shiny Berry",
+  "image": "/images/item/shiny_berry.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 1,
+  "text": "Turn a random monster SHINY. You can use 1 more item(s) today.",
+  "textTh": "เปลี่ยนมอนสเตอร์แบบสุ่ม 1 ตัวให้เป็น SHINY และคุณใช้ไอเท็มได้เพิ่มอีก 1 ชิ้นในวันนี้"
+ },
+ {
+  "slug": "ultra-candy",
+  "name": "Ultra Candy",
+  "image": "/images/item/ultra_candy.png",
+  "rarity": "Mythical",
+  "attributes": [],
+  "regions": [],
+  "cost": 60,
+  "text": "Level up a random level 3 monster.",
+  "textTh": "เลเวลอัปมอนสเตอร์เลเวล 3 แบบสุ่ม 1 ตัว"
+ }
+]

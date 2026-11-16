@@ -1,0 +1,322 @@
+[
+ {
+  "slug": "mysterious-trainer",
+  "name": "???",
+  "image": "/images/trainer/mysterious_trainer.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [],
+  "cost": null,
+  "text": "Gain MissingN."
+ },
+ {
+  "slug": "black-belt",
+  "name": "Black Belt",
+  "image": "/images/trainer/black_belt.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region"
+  ],
+  "cost": null,
+  "text": "After each battle, if you have exactly 1 Fighting monster on your team, activate its On Victory ability."
+ },
+ {
+  "slug": "bug-catcher",
+  "name": "Bug Catcher",
+  "image": "/images/trainer/bug_catcher.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "The first Bug monster you buy each day costs $10 less."
+ },
+ {
+  "slug": "burglar",
+  "name": "Burglar",
+  "image": "/images/trainer/burglar.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "When you pick from a Trinket gift, also steal one of the other choices at random."
+ },
+ {
+  "slug": "pyromaniac",
+  "name": "Chef",
+  "image": "/images/trainer/pyromaniac.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Your singled-typed monsters gain Fire typing. Your Fire monsters have +2 Burn."
+ },
+ {
+  "slug": "chemist",
+  "name": "Chemist",
+  "image": "/images/trainer/chemist.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Your Toxic monsters have +3 Poison. When any monster levels up, increase this effect by +1 Poison."
+ },
+ {
+  "slug": "egg-breeder",
+  "name": "Egg Breeder",
+  "image": "/images/trainer/egg_breeder.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain a Purple Egg that hatches into a level 2 Super Rare monster in 5 days."
+ },
+ {
+  "slug": "gamer",
+  "name": "Gamer",
+  "image": "/images/trainer/gamer.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain a Mythical monster and $30 on day 8."
+ },
+ {
+  "slug": "gentleman",
+  "name": "Gentleman",
+  "image": "/images/trainer/gentleman.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Increase Income by $5. From day 4 onwards, your shop no longer stocks Common or Uncommon monsters."
+ },
+ {
+  "slug": "youngster-f",
+  "name": "Lucky Girl",
+  "image": "/images/trainer/youngster_f.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "SHINY monsters are more likely to appear."
+ },
+ {
+  "slug": "mad-scientist",
+  "name": "Mad Scientist",
+  "image": "/images/trainer/mad_scientist.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "On day 7, transform monsters on your active team into random level 1 Legendary monsters."
+ },
+ {
+  "slug": "masked-man",
+  "name": "Masked Man",
+  "image": "/images/trainer/masked_man.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Every 4 days, choose a trainer and gain their ability."
+ },
+ {
+  "slug": "monster-ranger",
+  "name": "Monster Ranger",
+  "image": "/images/trainer/monster_ranger.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Start with an Uncommon monster. Get another copy of that monster every 2 days."
+ },
+ {
+  "slug": "musician",
+  "name": "Musician",
+  "image": "/images/trainer/musician.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "If you have exactly 1 Electric monster on your team, it will have +150% Shock."
+ },
+ {
+  "slug": "painter",
+  "name": "Painter",
+  "image": "/images/trainer/painter.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Random species will be painted with every type this run."
+ },
+ {
+  "slug": "redhead",
+  "name": "Redhead",
+  "image": "/images/trainer/redhead.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Your Fire monsters have +2 Burn for each victory."
+ },
+ {
+  "slug": "lady",
+  "name": "Rich Lady",
+  "image": "/images/trainer/lady.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain shop rank +2 and $10."
+ },
+ {
+  "slug": "scavenger",
+  "name": "Scavenger",
+  "image": "/images/trainer/scavenger.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain an additional copy of each non-unique Common or Uncommon Trinket from a gift."
+ },
+ {
+  "slug": "shopkeeper",
+  "name": "Shopkeeper",
+  "image": "/images/trainer/shopkeeper.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Your shop stocks Item 1 rarity tier higher and cost 15% less."
+ },
+ {
+  "slug": "smuggler",
+  "name": "Smuggler",
+  "image": "/images/trainer/smuggler.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Batomon from other regions appear in your shop and cost 35% less."
+ },
+ {
+  "slug": "swim-coach",
+  "name": "Swim Coach",
+  "image": "/images/trainer/swim_coach.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain a random Water monster each day."
+ },
+ {
+  "slug": "treasure-hunter",
+  "name": "Treasure Hunter",
+  "image": "/images/trainer/treasure_hunter.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "When you get Trinket gifts, your choices are 1 rarity tier higher."
+ },
+ {
+  "slug": "twins",
+  "name": "Twins",
+  "image": "/images/trainer/twins.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "When monsters merge into level 3, gain an exact copy with a sell value of 0."
+ },
+ {
+  "slug": "witch",
+  "name": "Witch",
+  "image": "/images/trainer/witch.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "The first shop rolled each day contains a Potion."
+ },
+ {
+  "slug": "youngster-m",
+  "name": "Youngster",
+  "image": "/images/trainer/youngster_m.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain 3 free rerolls every day."
+ }
+]

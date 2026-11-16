@@ -1,0 +1,1276 @@
+[
+ {
+  "slug": "bargain-bin",
+  "name": "Bargain Bin",
+  "image": "/images/trinket/bargain_bin.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "The first Common monster you buy each day is free.",
+  "textTh": "มอนสเตอร์ระดับธรรมดาตัวแรกที่คุณซื้อในแต่ละวันได้ฟรี"
+ },
+ {
+  "slug": "boxing-glove",
+  "name": "Boxing Glove",
+  "image": "/images/trinket/boxing_glove.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Victory Your team gains +5 Damage permanently.",
+  "textTh": "[เมื่อชนะ] ทีมของคุณได้ +5 ดาเมจ แบบถาวร"
+ },
+ {
+  "slug": "gold-bracelet",
+  "name": "Gold Bracelet",
+  "image": "/images/trinket/gold_bracelet.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "At the start of each day, give a random monster +8 Sell Value.",
+  "textTh": "เมื่อเริ่มต้นแต่ละวัน ให้มอนสเตอร์แบบสุ่ม 1 ตัว +8 มูลค่าขาย"
+ },
+ {
+  "slug": "gold-nugget",
+  "name": "Gold Nugget",
+  "image": "/images/trinket/gold_nugget.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Increase Income by $3.",
+  "textTh": "เพิ่มรายได้ $3"
+ },
+ {
+  "slug": "gold-trophy",
+  "name": "Gold Trophy",
+  "image": "/images/trinket/gold_trophy.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Victory Gain $8.",
+  "textTh": "[เมื่อชนะ] ได้รับ $8"
+ },
+ {
+  "slug": "junk",
+  "name": "Junk",
+  "image": "/images/trinket/junk.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Does nothing.",
+  "textTh": "ไม่มีผลใด ๆ"
+ },
+ {
+  "slug": "locked-box",
+  "name": "Locked Box",
+  "image": "/images/trinket/locked_box.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "The next time you lose a battle, gain a random non-unique Trinket of the highest rarity your shop rank allows.",
+  "textTh": "ครั้งถัดไปที่คุณแพ้การต่อสู้ ได้รับทริงเก็ตแบบสุ่ม (ที่ไม่ใช่ชิ้นเดียว) ในระดับความหายากสูงสุดตามแรงก์ร้านค้าของคุณ"
+ },
+ {
+  "slug": "mini-duplicator",
+  "name": "Mini Duplicator",
+  "image": "/images/trinket/mini_duplicator.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Gain an additional copy of the next non-unique Trinket from a gift.",
+  "textTh": "ได้รับทริงเก็ต (ที่ไม่ใช่ชิ้นเดียว) ชิ้นถัดไปจากของขวัญเพิ่มอีก 1 ชิ้น"
+ },
+ {
+  "slug": "plain-lure",
+  "name": "Plain Lure",
+  "image": "/images/trinket/plain_lure.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Common monsters are more likely to appear in your shop.",
+  "textTh": "มอนสเตอร์ระดับธรรมดามีโอกาสปรากฏในร้านค้าของคุณมากขึ้น"
+ },
+ {
+  "slug": "power-pouch",
+  "name": "Power Pouch",
+  "image": "/images/trinket/power_pouch.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "When you buy an item, give your monsters +2 Damage.",
+  "textTh": "เมื่อคุณซื้อไอเท็ม ให้มอนสเตอร์ของคุณ +2 ดาเมจ"
+ },
+ {
+  "slug": "quick-bell",
+  "name": "Quick Bell",
+  "image": "/images/trinket/quick_bell.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Monsters in your shop have +4% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ในร้านค้าของคุณได้ +4% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "quick-flag",
+  "name": "Quick Flag",
+  "image": "/images/trinket/quick_flag.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters in the leftmost column have +4% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ของคุณในคอลัมน์ซ้ายสุดได้ +4% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "rainbow-berry",
+  "name": "Rainbow Berry",
+  "image": "/images/trinket/rainbow_berry.png",
+  "rarity": "Common",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters have +5 Damage for each unique type on your team.",
+  "textTh": "มอนสเตอร์ของคุณได้ +5 ดาเมจ ต่อธาตุที่ไม่ซ้ำกันในทีม 1 ธาตุ"
+ },
+ {
+  "slug": "sapphire-ring",
+  "name": "Sapphire Ring",
+  "image": "/images/trinket/sapphire_ring.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Monsters in your shop have +10% Heal.",
+  "textTh": "มอนสเตอร์ในร้านค้าของคุณได้ +10% ฮีล"
+ },
+ {
+  "slug": "speed-whistle",
+  "name": "Speed Whistle",
+  "image": "/images/trinket/speed_whistle.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "The next monster you buy has +12% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ตัวถัดไปที่คุณซื้อได้ +12% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "tempo-charm",
+  "name": "Tempo Charm",
+  "image": "/images/trinket/tempo_charm.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start A random monster gains +4% Cooldown Speed permanently.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์แบบสุ่ม 1 ตัวได้ +4% ความเร็วคูลดาวน์ แบบถาวร"
+ },
+ {
+  "slug": "topaz-ring",
+  "name": "Topaz Ring",
+  "image": "/images/trinket/topaz_ring.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Monsters in your shop have +10% Shield.",
+  "textTh": "มอนสเตอร์ในร้านค้าของคุณได้ +10% โล่"
+ },
+ {
+  "slug": "training-weights",
+  "name": "Training Weights",
+  "image": "/images/trinket/training_weights.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "+100 HP",
+  "textTh": "+100 HP"
+ },
+ {
+  "slug": "treasure-map",
+  "name": "Treasure Map",
+  "image": "/images/trinket/treasure_map.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your next Trinket gift choices are 1 rarity tier higher.",
+  "textTh": "ตัวเลือกของขวัญทริงเก็ตครั้งถัดไปของคุณจะมีความหายากสูงขึ้น 1 ขั้น"
+ },
+ {
+  "slug": "wood-sword",
+  "name": "Wood Sword",
+  "image": "/images/trinket/wood_sword.png",
+  "rarity": "Common",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters have +5 Damage.",
+  "textTh": "มอนสเตอร์ของคุณได้ +5 ดาเมจ"
+ },
+ {
+  "slug": "bug-net",
+  "name": "Bug Net",
+  "image": "/images/trinket/bug_net.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Bug monsters in the shop cost 3 less.",
+  "textTh": "มอนสเตอร์ธาตุแมลงในร้านค้าราคาถูกลง 3"
+ },
+ {
+  "slug": "earth-crest",
+  "name": "Earth Crest",
+  "image": "/images/trinket/earth_crest.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your monsters in the rightmost column gain +10% Shield permanently.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์ของคุณในคอลัมน์ขวาสุดได้ +10% โล่ แบบถาวร"
+ },
+ {
+  "slug": "echo-charm",
+  "name": "Echo Charm",
+  "image": "/images/trinket/echo_charm.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters' On Bought abilities activate an additional time.",
+  "textTh": "ความสามารถ \"เมื่อถูกซื้อ\" ของมอนสเตอร์คุณทำงานเพิ่มอีก 1 ครั้ง"
+ },
+ {
+  "slug": "fire-bell",
+  "name": "Fire Bell",
+  "image": "/images/trinket/fire_bell.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Fire monsters in your shop have +5 Burn.",
+  "textTh": "มอนสเตอร์ธาตุไฟในร้านค้าของคุณได้ +5 เผาไหม้"
+ },
+ {
+  "slug": "fire-orb",
+  "name": "Fire Orb",
+  "image": "/images/trinket/fire_orb.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your Fire monsters have +3 Burn.",
+  "textTh": "มอนสเตอร์ธาตุไฟของคุณได้ +3 เผาไหม้"
+ },
+ {
+  "slug": "greedy-gloves",
+  "name": "Greedy Gloves",
+  "image": "/images/trinket/greedy_gloves.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "You can take all of the choices from your next Trinket gift.",
+  "textTh": "คุณสามารถเอาตัวเลือกทั้งหมดจากของขวัญทริงเก็ตครั้งถัดไปได้"
+ },
+ {
+  "slug": "market-license",
+  "name": "Market License",
+  "image": "/images/trinket/market_license.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Increase shop rank by 1.",
+  "textTh": "เพิ่มแรงก์ร้านค้า 1"
+ },
+ {
+  "slug": "membership-card",
+  "name": "Membership Card",
+  "image": "/images/trinket/membership_card.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "You can use 1 additional Item each day.",
+  "textTh": "คุณใช้ไอเท็มได้เพิ่มอีก 1 ชิ้นทุกวัน"
+ },
+ {
+  "slug": "piggy-bank",
+  "name": "Piggy Bank",
+  "image": "/images/trinket/piggy_bank.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Gain +$1 for each $10 you have at the end of each day.",
+  "textTh": "เมื่อจบแต่ละวัน ได้รับ +$1 ต่อเงินทุก ๆ $10 ที่คุณมี"
+ },
+ {
+  "slug": "poison-bell",
+  "name": "Poison Bell",
+  "image": "/images/trinket/poison_bell.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Toxic monsters in your shop have +6 Poison.",
+  "textTh": "มอนสเตอร์ธาตุพิษในร้านค้าของคุณได้ +6 พิษ"
+ },
+ {
+  "slug": "poison-orb",
+  "name": "Poison Orb",
+  "image": "/images/trinket/poison_orb.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your Toxic monsters have +3 Poison.",
+  "textTh": "มอนสเตอร์ธาตุพิษของคุณได้ +3 พิษ"
+ },
+ {
+  "slug": "power-band",
+  "name": "Power Band",
+  "image": "/images/trinket/power_band.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Give the first monster you buy each day +20 Damage.",
+  "textTh": "ให้มอนสเตอร์ตัวแรกที่คุณซื้อในแต่ละวัน +20 ดาเมจ"
+ },
+ {
+  "slug": "power-crown",
+  "name": "Power Crown",
+  "image": "/images/trinket/power_crown.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your top middle monster has +20 Damage.",
+  "textTh": "มอนสเตอร์ตำแหน่งบนตรงกลางของคุณได้ +20 ดาเมจ"
+ },
+ {
+  "slug": "rally-flag",
+  "name": "Rally Flag",
+  "image": "/images/trinket/rally_flag.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your monsters in the leftmost column gain +12 Damage permanently.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์ของคุณในคอลัมน์ซ้ายสุดได้ +12 ดาเมจ แบบถาวร"
+ },
+ {
+  "slug": "sea-crest",
+  "name": "Sea Crest",
+  "image": "/images/trinket/sea_crest.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your monsters in the rightmost column gain +10% Heal permanently.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์ของคุณในคอลัมน์ขวาสุดได้ +10% ฮีล แบบถาวร"
+ },
+ {
+  "slug": "small-club",
+  "name": "Small Club",
+  "image": "/images/trinket/small_club.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters with a Cooldown of 5 seconds or above have +20% Damage.",
+  "textTh": "มอนสเตอร์ของคุณที่มีคูลดาวน์ 5 วินาทีขึ้นไปได้ +20% ดาเมจ"
+ },
+ {
+  "slug": "sweet-lure",
+  "name": "Sweet Lure",
+  "image": "/images/trinket/sweet_lure.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Common and Uncommon monsters are more likely to appear in your shop.",
+  "textTh": "มอนสเตอร์ระดับธรรมดาและไม่ธรรมดามีโอกาสปรากฏในร้านค้าของคุณมากขึ้น"
+ },
+ {
+  "slug": "winged-fossil",
+  "name": "Winged Fossil",
+  "image": "/images/trinket/winged_fossil.png",
+  "rarity": "Uncommon",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your Flying monsters have +25% stats (except Cooldown and Multicast).",
+  "textTh": "มอนสเตอร์ธาตุบินของคุณได้ +25% ค่าสถานะ (ยกเว้นคูลดาวน์และมัลติแคสต์)"
+ },
+ {
+  "slug": "ancient-plume",
+  "name": "Ancient Plume",
+  "image": "/images/trinket/ancient_plume.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start If you only have 1 monster, give it +1 Multicast permanently and destroy this.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] ถ้าคุณมีมอนสเตอร์เพียง 1 ตัว ให้มัน +1 มัลติแคสต์ แบบถาวร แล้วทำลายทริงเก็ตนี้"
+ },
+ {
+  "slug": "arcade-coins",
+  "name": "Arcade Coins",
+  "image": "/images/trinket/arcade_coins.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Gain 10 free rerolls.",
+  "textTh": "ได้รีโรลฟรี 10 ครั้ง"
+ },
+ {
+  "slug": "blue-incense",
+  "name": "Blue Incense",
+  "image": "/images/trinket/blue_incense.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "The next 5 shops will contain only Rare monsters.",
+  "textTh": "ร้านค้า 5 ครั้งถัดไปจะมีเฉพาะมอนสเตอร์ระดับหายาก"
+ },
+ {
+  "slug": "fake-diamond",
+  "name": "Fake Diamond",
+  "image": "/images/trinket/fake_diamond.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "The next time you lose a battle, gain $40.",
+  "textTh": "ครั้งถัดไปที่คุณแพ้การต่อสู้ ได้รับ $40"
+ },
+ {
+  "slug": "fools-gold",
+  "name": "Fool's Gold",
+  "image": "/images/trinket/fools_gold.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Increase Income by $15. The shop no longer stocks Item.",
+  "textTh": "เพิ่มรายได้ $15 แต่ร้านค้าจะไม่ขายไอเท็มอีก"
+ },
+ {
+  "slug": "gold-bar",
+  "name": "Gold Bar",
+  "image": "/images/trinket/gold_bar.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Increase Income by $10.",
+  "textTh": "เพิ่มรายได้ $10"
+ },
+ {
+  "slug": "heros-sword",
+  "name": "Hero's Sword",
+  "image": "/images/trinket/heros_sword.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters have +16 Damage.",
+  "textTh": "มอนสเตอร์ของคุณได้ +16 ดาเมจ"
+ },
+ {
+  "slug": "kaleidoscope",
+  "name": "Kaleidoscope",
+  "image": "/images/trinket/kaleidoscope.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters that don't share a type with any ally have +35% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ของคุณที่ไม่มีธาตุซ้ำกับเพื่อนร่วมทีมตัวใดเลยได้ +35% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "link-cable",
+  "name": "Link Cable",
+  "image": "/images/trinket/link_cable.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "All of your team's monsters are now considered adjacent to each other.",
+  "textTh": "มอนสเตอร์ทุกตัวในทีมของคุณจะนับว่าอยู่ติดกันทั้งหมด"
+ },
+ {
+  "slug": "mega-duplicator",
+  "name": "Mega Duplicator",
+  "image": "/images/trinket/mega_duplicator.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Gain 2 additional copies of the next non-unique Trinket from a gift.",
+  "textTh": "ได้รับทริงเก็ต (ที่ไม่ใช่ชิ้นเดียว) ชิ้นถัดไปจากของขวัญเพิ่มอีก 2 ชิ้น"
+ },
+ {
+  "slug": "metal-bat",
+  "name": "Metal Bat",
+  "image": "/images/trinket/metal_bat.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your monster with the highest Cooldown gains +50% Damage for this battle.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์ของคุณที่มีคูลดาวน์สูงสุดได้ +50% ดาเมจ ในการต่อสู้นี้"
+ },
+ {
+  "slug": "meteorite",
+  "name": "Meteorite",
+  "image": "/images/trinket/meteorite.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your monsters with no abilities gain +20 Damage permanently.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์ของคุณที่ไม่มีความสามารถได้ +20 ดาเมจ แบบถาวร"
+ },
+ {
+  "slug": "power-bell",
+  "name": "Power Bell",
+  "image": "/images/trinket/power_bell.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Monsters in your shop have +25 Damage.",
+  "textTh": "มอนสเตอร์ในร้านค้าของคุณได้ +25 ดาเมจ"
+ },
+ {
+  "slug": "rigged-dice",
+  "name": "Rigged Dice",
+  "image": "/images/trinket/rigged_dice.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "The first shop each day stocks only the rarest monsters and items your shop rank allows.",
+  "textTh": "ร้านค้าแรกของแต่ละวันจะขายเฉพาะมอนสเตอร์และไอเท็มที่หายากที่สุดตามแรงก์ร้านค้าของคุณ"
+ },
+ {
+  "slug": "sapphire-amulet",
+  "name": "Sapphire Amulet",
+  "image": "/images/trinket/sapphire_amulet.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "You receive 25% more Heal.",
+  "textTh": "คุณได้รับฮีลมากขึ้น 25%"
+ },
+ {
+  "slug": "scrap-sword",
+  "name": "Scrap Sword",
+  "image": "/images/trinket/scrap_sword.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters have +2 Damage for each Common Trinket you have.",
+  "textTh": "มอนสเตอร์ของคุณได้ +2 ดาเมจ ต่อทริงเก็ตระดับธรรมดาที่คุณมี 1 ชิ้น"
+ },
+ {
+  "slug": "silver-watch",
+  "name": "Silver Watch",
+  "image": "/images/trinket/silver_watch.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "When a monster levels up from a merge, it gains +12% Cooldown Speed.",
+  "textTh": "เมื่อมอนสเตอร์เลเวลอัปจากการรวมร่าง จะได้ +12% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "speed-crest",
+  "name": "Speed Crest",
+  "image": "/images/trinket/speed_crest.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters in the rightmost column have +15% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ของคุณในคอลัมน์ขวาสุดได้ +15% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "terrarium",
+  "name": "Terrarium",
+  "image": "/images/trinket/terrarium.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your Bug monsters have +20% Damage.",
+  "textTh": "มอนสเตอร์ธาตุแมลงของคุณได้ +20% ดาเมจ"
+ },
+ {
+  "slug": "topaz-amulet",
+  "name": "Topaz Amulet",
+  "image": "/images/trinket/topaz_amulet.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "You receive 25% more Shield.",
+  "textTh": "คุณได้รับโล่มากขึ้น 25%"
+ },
+ {
+  "slug": "warhorn",
+  "name": "Warhorn",
+  "image": "/images/trinket/warhorn.png",
+  "rarity": "Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your monsters gain +10 Damage permanently.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์ของคุณได้ +10 ดาเมจ แบบถาวร"
+ },
+ {
+  "slug": "blitz-bell",
+  "name": "Blitz Bell",
+  "image": "/images/trinket/blitz_bell.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Monsters in your shop have +25% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ในร้านค้าของคุณได้ +25% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "echo-bell",
+  "name": "Echo Bell",
+  "image": "/images/trinket/echo_bell.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "When you buy a 0 cost item, use it an additional time.",
+  "textTh": "เมื่อคุณซื้อไอเท็มราคา 0 จะใช้ไอเท็มนั้นเพิ่มอีก 1 ครั้ง"
+ },
+ {
+  "slug": "grow-lamp",
+  "name": "Grow Lamp",
+  "image": "/images/trinket/grow_lamp.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your Grass monsters only need 2 copies to reach level 2.",
+  "textTh": "มอนสเตอร์ธาตุหญ้าของคุณใช้แค่ 2 ตัวก็ถึงเลเวล 2 ได้"
+ },
+ {
+  "slug": "haste-crown",
+  "name": "Haste Crown",
+  "image": "/images/trinket/haste_crown.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your top middle monster has +20% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ตำแหน่งบนตรงกลางของคุณได้ +20% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "haste-orb",
+  "name": "Haste Orb",
+  "image": "/images/trinket/haste_orb.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters have +10% Cooldown Speed.",
+  "textTh": "มอนสเตอร์ของคุณได้ +10% ความเร็วคูลดาวน์"
+ },
+ {
+  "slug": "momentum-flag",
+  "name": "Momentum Flag",
+  "image": "/images/trinket/momentum_flag.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your monsters in the leftmost column gain +8% Cooldown Speed permanently.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์ของคุณในคอลัมน์ซ้ายสุดได้ +8% ความเร็วคูลดาวน์ แบบถาวร"
+ },
+ {
+  "slug": "mysterious-charm",
+  "name": "Mysterious Charm",
+  "image": "/images/trinket/mysterious_charm.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Event reward",
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "+25% HP",
+  "textTh": "+25% HP"
+ },
+ {
+  "slug": "mysterious-mask",
+  "name": "Mysterious Mask",
+  "image": "/images/trinket/mysterious_mask.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts",
+   "Trainer source"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Choose a trainer and gain their ability.",
+  "textTh": "เลือกเทรนเนอร์ 1 คนและได้รับความสามารถของเทรนเนอร์คนนั้น"
+ },
+ {
+  "slug": "purple-incense",
+  "name": "Purple Incense",
+  "image": "/images/trinket/purple_incense.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "The next 5 shops will contain only Super Rare monsters.",
+  "textTh": "ร้านค้า 5 ครั้งถัดไปจะมีเฉพาะมอนสเตอร์ระดับหายากมาก"
+ },
+ {
+  "slug": "razor-beak",
+  "name": "Razor Beak",
+  "image": "/images/trinket/razor_beak.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your Flying monsters have +1 Multicast.",
+  "textTh": "มอนสเตอร์ธาตุบินของคุณได้ +1 มัลติแคสต์"
+ },
+ {
+  "slug": "repeater-charm",
+  "name": "Repeater Charm",
+  "image": "/images/trinket/repeater_charm.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters' On Battle Start abilities activate an additional time.",
+  "textTh": "ความสามารถ \"เมื่อเริ่มการต่อสู้\" ของมอนสเตอร์คุณทำงานเพิ่มอีก 1 ครั้ง"
+ },
+ {
+  "slug": "rocket-boots",
+  "name": "Rocket Boots",
+  "image": "/images/trinket/rocket_boots.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Monsters in your shop gain Flying typing.",
+  "textTh": "มอนสเตอร์ในร้านค้าของคุณได้ธาตุบินเพิ่ม"
+ },
+ {
+  "slug": "upgrade-disc",
+  "name": "Upgrade Disc",
+  "image": "/images/trinket/upgrade_disc.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "When you buy a monster, level it up and destroy this.",
+  "textTh": "เมื่อคุณซื้อมอนสเตอร์ จะเลเวลอัปให้ตัวนั้น แล้วทำลายทริงเก็ตนี้"
+ },
+ {
+  "slug": "vip-pass",
+  "name": "VIP Pass",
+  "image": "/images/trinket/vip_pass.png",
+  "rarity": "Super Rare",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your shop no longer stocks anything Common or Uncommon.",
+  "textTh": "ร้านค้าของคุณจะไม่ขายสิ่งใดที่เป็นระดับธรรมดาหรือไม่ธรรมดาอีก"
+ },
+ {
+  "slug": "barbell",
+  "name": "Barbell",
+  "image": "/images/trinket/barbell.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "+5000 HP",
+  "textTh": "+5000 HP"
+ },
+ {
+  "slug": "candy-jar",
+  "name": "Candy Jar",
+  "image": "/images/trinket/candy_jar.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your Common and Uncommon monsters permanently level up to level 3.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] มอนสเตอร์ระดับธรรมดาและไม่ธรรมดาของคุณเลเวลอัปเป็นเลเวล 3 แบบถาวร"
+ },
+ {
+  "slug": "dryads-charm",
+  "name": "Dryad's Charm",
+  "image": "/images/trinket/dryads_charm.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Event reward",
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "+30% HP",
+  "textTh": "+30% HP"
+ },
+ {
+  "slug": "fancy-sword",
+  "name": "Fancy Sword",
+  "image": "/images/trinket/fancy_sword.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters have +3% Damage for each Trinket you have.",
+  "textTh": "มอนสเตอร์ของคุณได้ +3% ดาเมจ ต่อทริงเก็ตที่คุณมี 1 ชิ้น"
+ },
+ {
+  "slug": "giant-club",
+  "name": "Giant Club",
+  "image": "/images/trinket/giant_club.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters with a Cooldown of 5 seconds or above have +70% stats (except Cooldown and Multicast).",
+  "textTh": "มอนสเตอร์ของคุณที่มีคูลดาวน์ 5 วินาทีขึ้นไปได้ +70% ค่าสถานะ (ยกเว้นคูลดาวน์และมัลติแคสต์)"
+ },
+ {
+  "slug": "gold-incense",
+  "name": "Gold Incense",
+  "image": "/images/trinket/gold_incense.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "The next 5 shops will contain only Legendary monsters.",
+  "textTh": "ร้านค้า 5 ครั้งถัดไปจะมีเฉพาะมอนสเตอร์ระดับตำนาน"
+ },
+ {
+  "slug": "gold-o-matic",
+  "name": "Gold-o-matic",
+  "image": "/images/trinket/gold_o_matic.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Increase Income by $30.",
+  "textTh": "เพิ่มรายได้ $30"
+ },
+ {
+  "slug": "metronome",
+  "name": "Metronome",
+  "image": "/images/trinket/metronome.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "When your monsters cast, they gain +10 Damage for this battle.",
+  "textTh": "เมื่อมอนสเตอร์ของคุณร่ายสกิล จะได้ +10 ดาเมจ ในการต่อสู้นี้"
+ },
+ {
+  "slug": "mighty-bell",
+  "name": "Mighty Bell",
+  "image": "/images/trinket/mighty_bell.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Monsters in your shop have +300 Damage.",
+  "textTh": "มอนสเตอร์ในร้านค้าของคุณได้ +300 ดาเมจ"
+ },
+ {
+  "slug": "mysterious-chest",
+  "name": "Mysterious Chest",
+  "image": "/images/trinket/mysterious_chest.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Lost Gain a random non-unique Legendary Trinket.",
+  "textTh": "[เมื่อแพ้การต่อสู้] ได้รับทริงเก็ตระดับตำนานแบบสุ่ม 1 ชิ้น (ที่ไม่ใช่ชิ้นเดียว)"
+ },
+ {
+  "slug": "mysterious-gem",
+  "name": "Mysterious Gem",
+  "image": "/images/trinket/mysterious_gem.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters have +20% Damage.",
+  "textTh": "มอนสเตอร์ของคุณได้ +20% ดาเมจ"
+ },
+ {
+  "slug": "research-notes",
+  "name": "Research Notes",
+  "image": "/images/trinket/research_notes.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Event reward",
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Legendary monsters are much more likely to appear in your shop.",
+  "textTh": "มอนสเตอร์ระดับตำนานมีโอกาสปรากฏในร้านค้าของคุณมากขึ้นอย่างมาก"
+ },
+ {
+  "slug": "winged-crown",
+  "name": "Winged Crown",
+  "image": "/images/trinket/winged_crown.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your top middle monster has +1 Multicast.",
+  "textTh": "มอนสเตอร์ตำแหน่งบนตรงกลางของคุณได้ +1 มัลติแคสต์"
+ },
+ {
+  "slug": "zenith-stone",
+  "name": "Zenith Stone",
+  "image": "/images/trinket/zenith_stone.png",
+  "rarity": "Legendary",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "When your monsters gain stats, they gain +80% more (except Multicast and % bonuses).",
+  "textTh": "เมื่อมอนสเตอร์ของคุณได้รับค่าสถานะ จะได้เพิ่มอีก +80% (ยกเว้นมัลติแคสต์และโบนัสแบบ %)"
+ },
+ {
+  "slug": "alphas-crown",
+  "name": "Alpha Crown",
+  "image": "/images/trinket/alphas_crown.png",
+  "rarity": "Mythical",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Battle Start Your monsters' Damage is set to your top-middle monster's Damage for this battle.",
+  "textTh": "[เมื่อเริ่มการต่อสู้] ดาเมจของมอนสเตอร์ทุกตัวของคุณจะเท่ากับดาเมจของมอนสเตอร์ตำแหน่งบนตรงกลาง ในการต่อสู้นี้"
+ },
+ {
+  "slug": "excalibur",
+  "name": "Excalibur",
+  "image": "/images/trinket/excalibur.png",
+  "rarity": "Mythical",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your monsters have +350 Damage.",
+  "textTh": "มอนสเตอร์ของคุณได้ +350 ดาเมจ"
+ },
+ {
+  "slug": "holy-grail",
+  "name": "Holy Grail",
+  "image": "/images/trinket/holy_grail.png",
+  "rarity": "Mythical",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "On Victory Gain $100.",
+  "textTh": "[เมื่อชนะ] ได้รับ $100"
+ },
+ {
+  "slug": "master-crown",
+  "name": "Master Crown",
+  "image": "/images/trinket/master_crown.png",
+  "rarity": "Mythical",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Your top middle monster has +80% stats (except Cooldown and Multicast).",
+  "textTh": "มอนสเตอร์ตำแหน่งบนตรงกลางของคุณได้ +80% ค่าสถานะ (ยกเว้นคูลดาวน์และมัลติแคสต์)"
+ },
+ {
+  "slug": "mega-upgrade-disc",
+  "name": "Mega Upgrade Disc",
+  "image": "/images/trinket/mega_upgrade_disc.png",
+  "rarity": "Mythical",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "When a monster reaches level 3, level it up again and destroy this.",
+  "textTh": "เมื่อมอนสเตอร์ถึงเลเวล 3 จะเลเวลอัปให้อีก 1 ครั้ง แล้วทำลายทริงเก็ตนี้"
+ },
+ {
+  "slug": "mystic-incense",
+  "name": "Mystic Incense",
+  "image": "/images/trinket/mystic_incense.png",
+  "rarity": "Mythical",
+  "attributes": [
+   "Random gifts"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "A Mythical monster will appear in your next shop.",
+  "textTh": "มอนสเตอร์ระดับเทพนิยายจะปรากฏในร้านค้าถัดไปของคุณ"
+ },
+ {
+  "slug": "rainbow-pearl",
+  "name": "Rainbow Pearl",
+  "image": "/images/trinket/rainbow_pearl.png",
+  "rarity": "Mythical",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "All monsters in your shop are SHINY.",
+  "textTh": "มอนสเตอร์ทุกตัวในร้านค้าของคุณเป็น SHINY"
+ },
+ {
+  "slug": "ultra-duplicator",
+  "name": "Ultra Duplicator",
+  "image": "/images/trinket/ultra_duplicator.png",
+  "rarity": "Mythical",
+  "attributes": [
+   "Random gifts",
+   "Unique"
+  ],
+  "regions": [],
+  "cost": null,
+  "text": "Gain an additional copy of each non-unique Trinket from a gift.",
+  "textTh": "ได้รับทริงเก็ต (ที่ไม่ใช่ชิ้นเดียว) จากของขวัญเพิ่มอีก 1 ชิ้นทุกครั้ง"
+ }
+]

@@ -1,0 +1,1032 @@
+[
+ {
+  "slug": "ability-disable",
+  "name": "Ability Disable",
+  "nameTh": "ปิดความสามารถ",
+  "group": "timing",
+  "summary": "Ability Disable turns off the targeted ability without stopping the Batomon's ordinary stat cast.",
+  "summaryTh": "การปิดความสามารถจะปิดเฉพาะความสามารถที่เป็นเป้าหมาย โดยไม่หยุดการร่ายค่าสถานะปกติของ Batomon ตัวนั้น",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Normal Celestia disables every Ongoing Batomon in its row on both teams; Shiny Celestia targets enemies in that row.",
+     "A disabled Ongoing ability stops contributing its modifier and a disabled On Cast ability does not resolve.",
+     "The affected Batomon still performs ordinary Damage, Heal, Shield, and status casts from its stats."
+    ],
+    "itemsTh": [
+     "Celestia ร่างปกติจะปิดความสามารถของ Batomon แบบ \"ต่อเนื่อง\" ทุกตัวในแถวของมันทั้งสองฝั่ง ส่วน Celestia ร่าง SHINY จะเลือกเป้าหมายเฉพาะศัตรูในแถวนั้น",
+     "ความสามารถแบบ \"ต่อเนื่อง\" ที่ถูกปิดจะหยุดให้โบนัส และความสามารถแบบ \"เมื่อร่าย\" ที่ถูกปิดจะไม่ทำงาน",
+     "Batomon ที่ถูกปิดความสามารถยังคงร่ายดาเมจ ฮีล โล่ และสถานะผิดปกติตามค่าสถานะของตัวเองได้ตามปกติ"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "adjacency-and-targeting",
+  "name": "Adjacency & Targeting",
+  "nameTh": "การอยู่ติดกันและการเลือกเป้าหมาย",
+  "group": "battle",
+  "summary": "The six-slot 3×2 board uses orthogonal adjacency; diagonals are not adjacent.",
+  "summaryTh": "กระดาน 6 ช่องขนาด 3×2 นับการอยู่ติดกันเฉพาะแนวตั้งและแนวนอน ช่องทแยงไม่นับว่าอยู่ติดกัน",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Slots touching above, below, left, or right are adjacent; diagonal slots are not.",
+     "Front and behind follow the same three-slot row. Above and below follow the same column.",
+     "Opposite targets the mirrored slot on the enemy board.",
+     "Link Cable is the explicit exception that considers every Batomon on your team adjacent to each other."
+    ],
+    "itemsTh": [
+     "ช่องที่ติดกันด้านบน ด้านล่าง ด้านซ้าย หรือด้านขวา นับว่าอยู่ติดกัน ส่วนช่องทแยงไม่นับ",
+     "ด้านหน้าและด้านหลังจะนับตามแถวเดียวกันที่มี 3 ช่อง ส่วนด้านบนและด้านล่างนับตามคอลัมน์เดียวกัน",
+     "\"ตรงข้าม\" หมายถึงช่องที่อยู่ตำแหน่งสะท้อนกันบนกระดานของศัตรู",
+     "Link Cable เป็นข้อยกเว้นที่ระบุไว้ชัดเจน โดยจะทำให้ Batomon ทุกตัวในทีมของคุณนับว่าอยู่ติดกันทั้งหมด"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "burn",
+  "name": "Burn",
+  "nameTh": "เผาไหม้",
+  "group": "combat",
+  "summary": "Burn deals stacking damage twice per second, then loses one stack.",
+  "summaryTh": "เผาไหม้สร้างดาเมจแบบสะสมสแตกวินาทีละ 2 ครั้ง แล้วลดลงครั้งละ 1 สแตก",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Each base Burn tick deals damage equal to the current Burn stack count.",
+     "After each Burn damage tick, Burn loses 1 stack.",
+     "If Shield is present, Burn damage is reduced by 15% before Shield absorbs it."
+    ],
+    "itemsTh": [
+     "เผาไหม้แต่ละครั้งสร้างดาเมจเท่ากับจำนวนสแตกเผาไหม้ที่มีอยู่ในขณะนั้น",
+     "หลังจากสร้างดาเมจแต่ละครั้ง เผาไหม้จะลดลง 1 สแตก",
+     "ถ้ามีโล่อยู่ ดาเมจจากเผาไหม้จะลดลง 15% ก่อนที่โล่จะดูดซับ"
+    ]
+   },
+   {
+    "heading": "Example: 4 Burn",
+    "headingTh": "ตัวอย่าง: เผาไหม้ 4 สแตก",
+    "ordered": true,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "At 0.5 seconds: deal 4, then fall to 3 Burn.",
+     "At 1.0 seconds: deal 3, then fall to 2 Burn.",
+     "Continue every 0.5 seconds until no Burn remains."
+    ],
+    "itemsTh": [
+     "ที่ 0.5 วินาที: สร้างดาเมจ 4 แล้วลดเหลือเผาไหม้ 3 สแตก",
+     "ที่ 1.0 วินาที: สร้างดาเมจ 3 แล้วลดเหลือเผาไหม้ 2 สแตก",
+     "ทำต่อไปทุก ๆ 0.5 วินาทีจนกว่าเผาไหม้จะหมด"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "charge",
+  "name": "Charge",
+  "nameTh": "ชาร์จ",
+  "group": "timing",
+  "summary": "Charge advances a Batomon toward its next cast by the stated number of seconds.",
+  "summaryTh": "ชาร์จจะเร่งให้ Batomon เข้าใกล้การร่ายครั้งถัดไปตามจำนวนวินาทีที่ระบุ",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Charge adds the printed number of seconds to current cast progress.",
+     "At the next cooldown check, reaching the cooldown queues one sequence, resets progress, and discards excess Charge. If Knockout cancels that timed cast before it executes, the game can restore the spent progress.",
+     "For a 1-second cooldown, one 3-second Charge starts one sequence, not three. With Multicast 1, that means one cast; no 2-second remainder survives.",
+     "Multicast still controls the number of casts within that sequence. Extra casts from Multicast are not extra cooldown completions from excess Charge.",
+     "Charge does not reset or change base cooldown, added cooldown, or Cooldown Speed.",
+     "Dracana and Ironcore cannot receive Charge, including from other sources."
+    ],
+    "itemsTh": [
+     "ชาร์จจะเพิ่มจำนวนวินาทีที่ระบุไว้เข้าไปในความคืบหน้าการร่ายปัจจุบัน",
+     "เมื่อถึงการตรวจคูลดาวน์ครั้งถัดไป ถ้าความคืบหน้าถึงค่าคูลดาวน์แล้ว จะเข้าคิวการร่าย 1 ชุด รีเซ็ตความคืบหน้า และทิ้งชาร์จส่วนที่เกิน ถ้าการน็อกเอาต์ยกเลิกการร่ายนั้นก่อนที่จะทำงาน เกมอาจคืนความคืบหน้าที่ใช้ไปให้",
+     "สำหรับคูลดาวน์ 1 วินาที การชาร์จ 3 วินาทีครั้งเดียวจะเริ่มการร่ายได้ 1 ชุด ไม่ใช่ 3 ชุด ถ้ามัลติแคสต์เป็น 1 ก็คือร่าย 1 ครั้ง และจะไม่มีเศษ 2 วินาทีเหลือค้างไว้",
+     "มัลติแคสต์ยังคงกำหนดจำนวนครั้งที่ร่ายในชุดนั้น การร่ายเพิ่มจากมัลติแคสต์ไม่ได้มาจากชาร์จส่วนเกิน",
+     "ชาร์จไม่รีเซ็ตหรือเปลี่ยนแปลงคูลดาวน์พื้นฐาน คูลดาวน์ที่ถูกเพิ่ม หรือความเร็วคูลดาวน์",
+     "Dracana และ Ironcore รับการชาร์จไม่ได้ ไม่ว่าจะมาจากแหล่งใดก็ตาม"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "cooldown-speed",
+  "name": "Cooldown Speed",
+  "nameTh": "ความเร็วคูลดาวน์",
+  "group": "combat",
+  "summary": "Cooldown Speed divides a Batomon's base cooldown. Non-negative cooldown additions apply afterward.",
+  "summaryTh": "ความเร็วคูลดาวน์จะหารคูลดาวน์พื้นฐานของ Batomon จากนั้นจึงบวกคูลดาวน์ที่ถูกเพิ่ม (ค่าไม่ติดลบ) เข้าไปภายหลัง",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "More Cooldown Speed makes a Batomon cast more often.",
+     "With no added cooldown, +100% Cooldown Speed turns a 6-second base cooldown into 3 seconds.",
+     "A Batomon's effective cooldown cannot go below 0.1 seconds.",
+     "The game rounds the effective cooldown to the nearest 0.1 seconds, then applies the 0.1-second minimum. The card and the battle use the same rounded value.",
+     "Charge advances current cast progress; it does not change base cooldown, added cooldown, or Cooldown Speed."
+    ],
+    "itemsTh": [
+     "ยิ่งมีความเร็วคูลดาวน์มาก Batomon ก็ยิ่งร่ายบ่อยขึ้น",
+     "ถ้าไม่มีคูลดาวน์ที่ถูกเพิ่ม ความเร็วคูลดาวน์ +100% จะทำให้คูลดาวน์พื้นฐาน 6 วินาทีเหลือ 3 วินาที",
+     "คูลดาวน์จริงของ Batomon ต่ำกว่า 0.1 วินาทีไม่ได้",
+     "เกมจะปัดคูลดาวน์จริงไปที่ 0.1 วินาทีที่ใกล้ที่สุดก่อน แล้วจึงใช้ค่าต่ำสุด 0.1 วินาที การ์ดและการต่อสู้ใช้ค่าที่ปัดแล้วเหมือนกัน",
+     "ชาร์จเป็นการเร่งความคืบหน้าการร่ายปัจจุบัน ไม่ได้เปลี่ยนคูลดาวน์พื้นฐาน คูลดาวน์ที่ถูกเพิ่ม หรือความเร็วคูลดาวน์"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "damage",
+  "name": "Damage",
+  "nameTh": "ดาเมจ",
+  "group": "combat",
+  "summary": "Damage breaks Shield first, then lowers the enemy team's shared HP.",
+  "summaryTh": "ดาเมจจะทำลายโล่ก่อน แล้วจึงลด HP รวมของทีมศัตรู",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "A Batomon's Damage stat deals direct damage; Burn, Poison, Shock, and Sudden Death are separate damage sources.",
+     "Shield absorbs incoming Damage before that Damage reaches team HP.",
+     "On the same tick, Shield resolves before Damage."
+    ],
+    "itemsTh": [
+     "ค่าดาเมจของ Batomon สร้างดาเมจโดยตรง ส่วนเผาไหม้ พิษ ช็อต และ Sudden Death เป็นแหล่งดาเมจที่แยกต่างหาก",
+     "โล่จะดูดซับดาเมจที่เข้ามาก่อนที่ดาเมจนั้นจะไปถึง HP ของทีม",
+     "ในเฟรม (tick) เดียวกัน โล่จะทำงานก่อนดาเมจ"
+    ]
+   },
+   {
+    "heading": "Damage path",
+    "headingTh": "ลำดับการคิดดาเมจ",
+    "ordered": true,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Apply Shield gained on that tick.",
+     "Subtract Damage from Shield.",
+     "Send any remaining Damage to shared team HP."
+    ],
+    "itemsTh": [
+     "ใส่โล่ที่ได้รับในเฟรมนั้น",
+     "หักดาเมจออกจากโล่",
+     "ดาเมจที่เหลือจะไปลด HP รวมของทีม"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "debuff-removal",
+  "name": "Debuff Removal",
+  "nameTh": "การลบดีบัฟ",
+  "group": "battle",
+  "summary": "Debuff-removal effects remove the exact flat stacks or percentage printed by the current effect.",
+  "summaryTh": "เอฟเฟกต์ลบดีบัฟจะลบจำนวนสแตกคงที่หรือเปอร์เซ็นต์ตามที่เอฟเฟกต์ปัจจุบันระบุไว้พอดี",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "At Level 1, Runerock removes up to 15 Burn, Poison, and Shock from its team when it casts.",
+     "At Level 1, Sirenade removes 20% of each of those debuffs and rounds each removal up to a whole stack.",
+     "When two Sirenades cast on the same tick, the second one takes its percentage of the stacks that remain after the first removal.",
+     "The flat and percentage versions are different effects; use the exact current text."
+    ],
+    "itemsTh": [
+     "ที่เลเวล 1 เมื่อ Runerock ร่าย จะลบเผาไหม้ พิษ และช็อตออกจากทีมของตัวเองได้สูงสุดอย่างละ 15",
+     "ที่เลเวล 1 Sirenade จะลบดีบัฟแต่ละชนิดออก 20% และปัดเศษการลบแต่ละครั้งขึ้นเป็นจำนวนเต็มสแตก",
+     "ถ้า Sirenade สองตัวร่ายในเฟรมเดียวกัน ตัวที่สองจะคิดเปอร์เซ็นต์จากสแตกที่เหลืออยู่หลังการลบของตัวแรก",
+     "แบบลบจำนวนคงที่และแบบลบเปอร์เซ็นต์เป็นเอฟเฟกต์คนละแบบ ให้ดูข้อความปัจจุบันที่แน่นอน"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "evolution",
+  "name": "Evolution",
+  "nameTh": "วิวัฒนาการ",
+  "group": "unit",
+  "summary": "Evolution changes a Batomon when that species' exact current trigger is satisfied.",
+  "summaryTh": "วิวัฒนาการจะเปลี่ยน Batomon เมื่อเงื่อนไขปัจจุบันของสายพันธุ์นั้นครบถ้วน",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Some current Batomon evolve at a level threshold, including Panbud at Level 3.",
+     "Ignit's On Victory ability evolves it.",
+     "Pipskull evolves at the next shop after three of its own Knockouts if you do not already own Ratacomb.",
+     "Emberpaw, Sproutquill, and Fernfowl advance their evolution progress on the active team, not from the bench.",
+     "Evolution timing, restrictions, and target are species-specific."
+    ],
+    "itemsTh": [
+     "Batomon บางตัววิวัฒนาการเมื่อถึงเลเวลที่กำหนด เช่น Panbud ที่เลเวล 3",
+     "Ignit วิวัฒนาการจากความสามารถ \"เมื่อชนะ\" ของตัวเอง",
+     "Pipskull จะวิวัฒนาการในร้านค้าถัดไปหลังจากตัวมันถูกน็อกเอาต์ครบ 3 ครั้ง ถ้าคุณยังไม่มี Ratacomb",
+     "Emberpaw, Sproutquill และ Fernfowl จะเพิ่มความคืบหน้าวิวัฒนาการเฉพาะตอนอยู่ในทีมหลัก ไม่ใช่ตอนอยู่บนม้านั่งสำรอง",
+     "จังหวะเวลา ข้อจำกัด และร่างที่วิวัฒนาการไปนั้นขึ้นอยู่กับแต่ละสายพันธุ์"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "heal",
+  "name": "Heal",
+  "nameTh": "ฮีล",
+  "group": "combat",
+  "summary": "Heal restores shared team HP after same-tick offensive effects resolve.",
+  "summaryTh": "ฮีลจะฟื้นฟู HP รวมของทีม หลังจากเอฟเฟกต์โจมตีในเฟรมเดียวกันทำงานเสร็จแล้ว",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Heal restores team HP; Batomon do not have separate personal HP bars.",
+     "Heal cannot raise team HP above that battle's maximum.",
+     "For casts on the same tick, Heal resolves after Shield, Damage, and status application.",
+     "Same-tick Heal can restore HP after lethal Damage has resolved, before the winner is checked.",
+     "After lethal Damage, Heal adds to the team's HP below 0, not to 0. The HP bar shows 0 until the total is above 0 again."
+    ],
+    "itemsTh": [
+     "ฮีลฟื้นฟู HP ของทีม Batomon แต่ละตัวไม่มีแถบ HP ของตัวเอง",
+     "ฮีลไม่สามารถเพิ่ม HP ของทีมเกินค่าสูงสุดของการต่อสู้นั้นได้",
+     "สำหรับการร่ายในเฟรมเดียวกัน ฮีลจะทำงานหลังโล่ ดาเมจ และการใส่สถานะผิดปกติ",
+     "ฮีลในเฟรมเดียวกันสามารถฟื้น HP ได้หลังจากดาเมจที่ถึงตายทำงานแล้ว ก่อนที่จะตรวจผู้ชนะ",
+     "หลังจากโดนดาเมจถึงตาย ฮีลจะบวกเข้ากับ HP ของทีมที่ติดลบอยู่ ไม่ได้เริ่มจาก 0 แถบ HP จะแสดง 0 จนกว่าค่ารวมจะกลับมามากกว่า 0"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "knockout",
+  "name": "Knockout",
+  "nameTh": "น็อกเอาต์",
+  "group": "battle",
+  "summary": "Knockout effects defeat the exact Batomon named by the effect, unless Protect prevents it.",
+  "summaryTh": "เอฟเฟกต์น็อกเอาต์จะกำจัด Batomon ตามที่เอฟเฟกต์ระบุไว้ เว้นแต่จะมีป้องกัน (Protect) ขวางไว้",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Current effects can Knockout their source, adjacent allies, or selected enemies according to their exact target text.",
+     "Protect prevents a Knockout and loses 1 stack when it does.",
+     "A Knocked Out Batomon stops normal casts and no longer contributes Ongoing effects. A late-priority cast can still resolve if it became due while that Batomon was alive.",
+     "Aerophim can revive a knocked-out ally while transforming it."
+    ],
+    "itemsTh": [
+     "เอฟเฟกต์ปัจจุบันสามารถน็อกเอาต์ตัวเอง เพื่อนร่วมทีมที่อยู่ติดกัน หรือศัตรูที่เลือก ตามข้อความเป้าหมายที่ระบุไว้",
+     "ป้องกันจะกันการน็อกเอาต์ได้ และจะลดลง 1 สแตกเมื่อทำงาน",
+     "Batomon ที่ถูกน็อกเอาต์จะหยุดร่ายตามปกติและไม่ให้เอฟเฟกต์ \"ต่อเนื่อง\" อีก แต่การร่ายที่มีลำดับความสำคัญท้าย ๆ ยังทำงานได้ถ้าถึงเวลาร่ายตอนที่ Batomon ตัวนั้นยังไม่ถูกน็อกเอาต์",
+     "Aerophim สามารถชุบชีวิตเพื่อนร่วมทีมที่ถูกน็อกเอาต์พร้อมกับแปลงร่างให้ด้วย"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "levels-and-merging",
+  "name": "Levels & Merging",
+  "nameTh": "เลเวลและการรวมร่าง",
+  "group": "unit",
+  "summary": "Standard merges use three Level 1 copies for Level 2, then two Level 2 copies for Level 3.",
+  "summaryTh": "การรวมร่างปกติใช้ตัวเลเวล 1 จำนวน 3 ตัวเพื่อได้เลเวล 2 และใช้ตัวเลเวล 2 จำนวน 2 ตัวเพื่อได้เลเวล 3",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "An ordinary Level 1 merge needs three copies in the same merge group. Swoonet needs two copies. Grow Lamp reduces the requirement for Grass Batomon.",
+     "Two Level 2 Batomon in the same merge group combine into one Level 3 Batomon.",
+     "Ordinary merges stop at Level 3. Special level-up effects can reach Level 4. Swoonet merges beyond Level 4, and Kappow can gain more levels after victories.",
+     "Current level values can change cooldown, Multicast, stats, and ability numbers by level.",
+     "Added types survive a merge, and any shiny ingredient makes the result shiny."
+    ],
+    "itemsTh": [
+     "การรวมร่างเลเวล 1 ปกติต้องใช้ 3 ตัวในกลุ่มรวมร่างเดียวกัน Swoonet ใช้แค่ 2 ตัว และ Grow Lamp ช่วยลดจำนวนที่ต้องใช้สำหรับ Batomon ธาตุหญ้า",
+     "Batomon เลเวล 2 สองตัวในกลุ่มรวมร่างเดียวกันจะรวมเป็น Batomon เลเวล 3 หนึ่งตัว",
+     "การรวมร่างปกติหยุดที่เลเวล 3 เอฟเฟกต์เลเวลอัปพิเศษสามารถพาไปถึงเลเวล 4 ได้ Swoonet รวมร่างเกินเลเวล 4 ได้ และ Kappow ได้เลเวลเพิ่มหลังชนะ",
+     "ค่าตามเลเวลปัจจุบันอาจเปลี่ยนคูลดาวน์ มัลติแคสต์ ค่าสถานะ และตัวเลขในความสามารถไปตามเลเวล",
+     "ธาตุที่ถูกเพิ่มเข้ามาจะยังอยู่หลังรวมร่าง และถ้ามีตัวใดตัวหนึ่งที่ใช้รวมเป็น SHINY ผลลัพธ์ก็จะเป็น SHINY"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "monster-pool",
+  "name": "Monster pool & shop",
+  "nameTh": "กลุ่มมอนสเตอร์และร้านค้า",
+  "group": "shop",
+  "summary": "A normal shop has five slots, uses rank-based rarity odds, and rolls from your run's species roster.",
+  "summaryTh": "ร้านค้าปกติมี 5 ช่อง ใช้โอกาสความหายากตามแรงก์ร้านค้า และสุ่มจากรายชื่อสายพันธุ์ในรอบการเล่นของคุณ",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "A normal shop has five slots. Four offer Batomon. The fifth offers an eligible Item when the Item budget allows it, or a Batomon otherwise. Berroon's banked Berries and the Witch's daily Potion can keep that slot active after the usual budget is spent.",
+     "Potions are a separate pool of 15 Items. Only the Witch brings them: her first shop each day has a Potion in the Item slot. A normal Item roll never offers a Potion. She does not brew the previous day's Potion again when another Potion is possible. While a Potion Pack shop is active, you cannot lock the shop.",
+     "The shop greys out an Item that would do nothing, and you cannot buy it. Voucher and Coupon need a Batomon offer on the shelf, and Battery Pack needs an Electric Batomon on your team or bench. The Item slot does not roll an Item that needs a Batomon offer when the shelf has none. Green Stone does not appear while your team or bench has a Common Batomon at Level 4 or higher.",
+     "The daily Item budget starts at 1. Berries refund their use. Mini Rainbow, Rainbow, and Portal Potions also refund their use when they work. Tote Bag adds 2 uses today, and Membership Card adds 1 each day. Berroon banks Berry offers rather than extra daily uses."
+    ],
+    "itemsTh": [
+     "ร้านค้าปกติมี 5 ช่อง 4 ช่องขาย Batomon ส่วนช่องที่ 5 จะขายไอเท็มที่เข้าเงื่อนไขถ้ายังมีโควตาไอเท็มเหลือ ไม่อย่างนั้นจะขาย Batomon แทน เบอร์รี่ที่ Berroon สะสมไว้ และยาประจำวันของแม่มด (Witch) สามารถทำให้ช่องนั้นยังเปิดอยู่ได้แม้โควตาปกติจะหมดแล้ว",
+     "ยา (Potion) เป็นกลุ่มไอเท็มแยกต่างหาก 15 ชนิด มีเพียงแม่มด (Witch) เท่านั้นที่นำมาได้ โดยร้านค้าแรกของแต่ละวันจะมียาในช่องไอเท็ม การสุ่มไอเท็มปกติจะไม่ให้ยา แม่มดจะไม่ปรุงยาซ้ำกับของเมื่อวานถ้ายังมียาชนิดอื่นให้เลือก และระหว่างที่ร้าน Potion Pack เปิดอยู่ คุณจะล็อกร้านค้าไม่ได้",
+     "ร้านค้าจะทำให้ไอเท็มที่ใช้แล้วไม่มีผลเป็นสีเทา และคุณจะซื้อไม่ได้ Voucher และ Coupon ต้องมี Batomon วางขายอยู่บนชั้น ส่วน Battery Pack ต้องมี Batomon ธาตุไฟฟ้าในทีมหรือม้านั่งสำรอง ช่องไอเท็มจะไม่สุ่มไอเท็มที่ต้องใช้ Batomon บนชั้นถ้าชั้นไม่มี Batomon และ Green Stone จะไม่ปรากฏถ้าในทีมหรือม้านั่งสำรองมี Batomon ระดับธรรมดาเลเวล 4 ขึ้นไป",
+     "โควตาการใช้ไอเท็มต่อวันเริ่มที่ 1 เบอร์รี่จะคืนโควตาที่ใช้ไป ยา Mini Rainbow, Rainbow และ Portal ก็คืนโควตาเมื่อใช้ได้ผล Tote Bag เพิ่มการใช้ 2 ครั้งในวันนั้น และ Membership Card เพิ่ม 1 ครั้งทุกวัน ส่วน Berroon สะสมเบอร์รี่ไว้แทนการเพิ่มโควตารายวัน"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "multicast",
+  "name": "Multicast",
+  "nameTh": "มัลติแคสต์",
+  "group": "combat",
+  "summary": "Multicast is the total number of consecutive casts in one activation.",
+  "summaryTh": "มัลติแคสต์คือจำนวนครั้งทั้งหมดที่ร่ายต่อเนื่องในการทำงาน 1 ครั้ง",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Multicast 2 means two total casts, not two additional casts.",
+     "Consecutive Multicast repeats are spaced 0.1 seconds apart.",
+     "Each repeat is another cast, so On Cast resolves for each cast in the sequence.",
+     "Queued repeats normally stop at Knockout. A late-priority cast that became due while alive can still resolve on that tick."
+    ],
+    "itemsTh": [
+     "มัลติแคสต์ 2 หมายถึงร่ายทั้งหมด 2 ครั้ง ไม่ใช่ร่ายเพิ่มอีก 2 ครั้ง",
+     "การร่ายซ้ำจากมัลติแคสต์แต่ละครั้งห่างกัน 0.1 วินาที",
+     "การร่ายซ้ำแต่ละครั้งนับเป็นการร่ายใหม่ ดังนั้นความสามารถ \"เมื่อร่าย\" จะทำงานทุกครั้งในชุดนั้น",
+     "การร่ายซ้ำที่อยู่ในคิวจะหยุดเมื่อถูกน็อกเอาต์ แต่การร่ายที่มีลำดับความสำคัญท้าย ๆ ซึ่งถึงเวลาตอนที่ยังไม่ถูกน็อกเอาต์ ยังทำงานได้ในเฟรมนั้น"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "on-battle-start",
+  "name": "On Battle Start",
+  "nameTh": "เมื่อเริ่มการต่อสู้",
+  "group": "timing",
+  "summary": "On Battle Start abilities resolve before normal timed casts begin.",
+  "summaryTh": "ความสามารถ \"เมื่อเริ่มการต่อสู้\" จะทำงานก่อนที่การร่ายตามเวลาปกติจะเริ่ม",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "On Battle Start abilities resolve before normal timed casts, with higher-priority start effects resolving first.",
+     "Knocked-out or ability-disabled Batomon do not resolve their normal On Battle Start activation.",
+     "Effects can explicitly activate On Battle Start abilities additional times.",
+     "Coffee adds one activation for the next battle; Draconarch activates adjacent allies' On Battle Start abilities when it casts."
+    ],
+    "itemsTh": [
+     "ความสามารถ \"เมื่อเริ่มการต่อสู้\" ทำงานก่อนการร่ายตามเวลาปกติ โดยเอฟเฟกต์เริ่มต้นที่มีลำดับความสำคัญสูงกว่าจะทำงานก่อน",
+     "Batomon ที่ถูกน็อกเอาต์หรือถูกปิดความสามารถจะไม่ทำงาน \"เมื่อเริ่มการต่อสู้\" ตามปกติ",
+     "เอฟเฟกต์บางอย่างสามารถสั่งให้ความสามารถ \"เมื่อเริ่มการต่อสู้\" ทำงานเพิ่มได้โดยตรง",
+     "Coffee เพิ่มการทำงาน 1 ครั้งสำหรับการต่อสู้ครั้งถัดไป ส่วน Draconarch จะเปิดใช้ความสามารถ \"เมื่อเริ่มการต่อสู้\" ของเพื่อนร่วมทีมที่อยู่ติดกันเมื่อมันร่าย"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "on-bought",
+  "name": "On Bought",
+  "nameTh": "เมื่อถูกซื้อ",
+  "group": "timing",
+  "summary": "On Bought effects activate when a Batomon's acquisition counts as a purchase.",
+  "summaryTh": "เอฟเฟกต์ \"เมื่อถูกซื้อ\" จะทำงานเมื่อการได้รับ Batomon นั้นนับเป็นการซื้อ",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "An ordinary shop purchase activates On Bought once, plus any additional activations from effects such as Echo Charm.",
+     "If the purchase causes merges, On Bought waits for the merge chain. It uses the surviving Batomon's On Bought ability and resulting level.",
+     "Echo Charm adds one activation. The game adds these repeat bonuses to the normal single activation.",
+     "Not every acquisition counts as a purchase. Lootbox and Recruiting Flyer use the non-purchase path; Voucher explicitly counts as a purchase.",
+     "An effect can explicitly activate On Bought without a new purchase. Gemwing does this to the ally above when Gemwing casts.",
+     "Gemwing activates that ability 1, 2, 3, or 12 times at Levels 1–4, multiplied by one plus the On Bought repeat bonuses.",
+     "On Bought is separate from effects that react when another Batomon is bought. It is not an ordinary cooldown cast."
+    ],
+    "itemsTh": [
+     "การซื้อจากร้านค้าปกติจะเปิดใช้ \"เมื่อถูกซื้อ\" 1 ครั้ง บวกกับการทำงานเพิ่มเติมจากเอฟเฟกต์อย่าง Echo Charm",
+     "ถ้าการซื้อทำให้เกิดการรวมร่าง \"เมื่อถูกซื้อ\" จะรอจนการรวมร่างต่อเนื่องเสร็จก่อน แล้วใช้ความสามารถ \"เมื่อถูกซื้อ\" และเลเวลของ Batomon ตัวที่เหลืออยู่",
+     "Echo Charm เพิ่มการทำงาน 1 ครั้ง เกมจะบวกโบนัสการทำงานซ้ำเหล่านี้เข้ากับการทำงานปกติ 1 ครั้ง",
+     "การได้รับ Batomon ไม่ได้นับเป็นการซื้อทุกกรณี Lootbox และ Recruiting Flyer ไม่นับเป็นการซื้อ ส่วน Voucher ระบุชัดว่านับเป็นการซื้อ",
+     "เอฟเฟกต์บางอย่างสามารถเปิดใช้ \"เมื่อถูกซื้อ\" ได้โดยไม่ต้องซื้อใหม่ เช่น Gemwing จะทำแบบนี้กับเพื่อนร่วมทีมด้านบนเมื่อ Gemwing ร่าย",
+     "Gemwing เปิดใช้ความสามารถนั้น 1, 2, 3 หรือ 12 ครั้งที่เลเวล 1–4 คูณด้วย 1 บวกโบนัสการทำงานซ้ำของ \"เมื่อถูกซื้อ\"",
+     "\"เมื่อถูกซื้อ\" แยกจากเอฟเฟกต์ที่ตอบสนองเมื่อมีการซื้อ Batomon ตัวอื่น และไม่ใช่การร่ายตามคูลดาวน์ปกติ"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "on-cast",
+  "name": "On Cast",
+  "nameTh": "เมื่อร่าย",
+  "group": "timing",
+  "summary": "On Cast resolves whenever that Batomon performs a cast.",
+  "summaryTh": "ความสามารถ \"เมื่อร่าย\" จะทำงานทุกครั้งที่ Batomon ตัวนั้นร่าย",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "An On Cast ability resolves when its own Batomon casts and that ability is enabled.",
+     "Multicast repeats the cast, so On Cast resolves for every cast in that Multicast sequence.",
+     "Cooldown Speed and Charge can move the next timed cast earlier without changing the printed On Cast effect."
+    ],
+    "itemsTh": [
+     "ความสามารถ \"เมื่อร่าย\" จะทำงานเมื่อ Batomon เจ้าของร่าย และความสามารถนั้นไม่ได้ถูกปิด",
+     "มัลติแคสต์ทำให้ร่ายซ้ำ ดังนั้น \"เมื่อร่าย\" จะทำงานทุกครั้งในชุดมัลติแคสต์นั้น",
+     "ความเร็วคูลดาวน์และชาร์จสามารถทำให้การร่ายครั้งถัดไปเร็วขึ้นได้ โดยไม่เปลี่ยนเอฟเฟกต์ \"เมื่อร่าย\" ที่ระบุไว้"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "on-victory",
+  "name": "On Victory",
+  "nameTh": "เมื่อชนะ",
+  "group": "timing",
+  "summary": "On Victory normally activates after the player's team wins. Some effects can also activate it directly.",
+  "summaryTh": "\"เมื่อชนะ\" ปกติจะทำงานหลังจากทีมของผู้เล่นชนะ และเอฟเฟกต์บางอย่างสามารถเปิดใช้ได้โดยตรง",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Pompummel activates the ally above's On Victory ability when Pompummel casts. This activation does not require a new victory. It skips a silenced or knocked-out ally. If the activation evolves the ally, the battle continues with the evolved ability.",
+     "A loss does not activate the normal On Victory phase. Sarudo's On Battle Lost effect can still activate adjacent allies' On Victory abilities.",
+     "The normal post-battle phase applies On Victory rewards after a win. After each battle, Black Belt activates a lone Fighting Batomon's On Victory ability, also after a loss. After a win, this is a second activation. It skips a Batomon that is silenced when the battle ends.",
+     "If both teams end the same tick at 0 HP or less, the result is recorded as a win for the player."
+    ],
+    "itemsTh": [
+     "Pompummel จะเปิดใช้ความสามารถ \"เมื่อชนะ\" ของเพื่อนร่วมทีมด้านบนเมื่อ Pompummel ร่าย การเปิดใช้นี้ไม่ต้องชนะใหม่ และจะข้ามเพื่อนร่วมทีมที่ถูกปิดเสียงหรือถูกน็อกเอาต์ ถ้าการเปิดใช้ทำให้เพื่อนร่วมทีมวิวัฒนาการ การต่อสู้จะดำเนินต่อด้วยความสามารถของร่างที่วิวัฒนาการแล้ว",
+     "การแพ้จะไม่เปิดใช้ช่วง \"เมื่อชนะ\" ตามปกติ แต่เอฟเฟกต์ \"เมื่อแพ้การต่อสู้\" ของ Sarudo ยังเปิดใช้ความสามารถ \"เมื่อชนะ\" ของเพื่อนร่วมทีมที่อยู่ติดกันได้",
+     "ช่วงหลังการต่อสู้ปกติจะมอบรางวัล \"เมื่อชนะ\" หลังจากชนะ หลังจบการต่อสู้ทุกครั้ง Black Belt จะเปิดใช้ \"เมื่อชนะ\" ของ Batomon ธาตุต่อสู้ที่มีอยู่ตัวเดียว แม้จะแพ้ก็ตาม ถ้าชนะจะนับเป็นการทำงานครั้งที่ 2 และจะข้าม Batomon ที่ถูกปิดเสียงตอนจบการต่อสู้",
+     "ถ้าทั้งสองทีมจบเฟรมเดียวกันโดยมี HP 0 หรือต่ำกว่า จะนับเป็นชัยชนะของผู้เล่น"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ongoing",
+  "name": "Ongoing",
+  "nameTh": "ต่อเนื่อง",
+  "group": "timing",
+  "summary": "Ongoing abilities apply without waiting for a cast and recalculate as active effects change.",
+  "summaryTh": "ความสามารถ \"ต่อเนื่อง\" มีผลโดยไม่ต้องรอการร่าย และจะคำนวณใหม่เมื่อเอฟเฟกต์ที่ทำงานอยู่เปลี่ยนไป",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "An Ongoing ability contributes while its source is active; Knocked-out and ability-disabled sources stop contributing.",
+     "Level 1 Onsetra makes the ally behind apply its Ongoing ability one additional time.",
+     "Normal Celestia disables every Ongoing Batomon in its row on both teams at battle start.",
+     "Disabling an Ongoing ability does not prevent that Batomon's ordinary cast."
+    ],
+    "itemsTh": [
+     "ความสามารถ \"ต่อเนื่อง\" มีผลตราบที่เจ้าของยังทำงานอยู่ ถ้าเจ้าของถูกน็อกเอาต์หรือถูกปิดความสามารถ จะหยุดมีผล",
+     "Onsetra เลเวล 1 ทำให้เพื่อนร่วมทีมด้านหลังใช้ความสามารถ \"ต่อเนื่อง\" เพิ่มอีก 1 ครั้ง",
+     "Celestia ร่างปกติจะปิดความสามารถของ Batomon แบบ \"ต่อเนื่อง\" ทุกตัวในแถวของมันทั้งสองฝั่งเมื่อเริ่มการต่อสู้",
+     "การปิดความสามารถ \"ต่อเนื่อง\" ไม่ได้หยุดการร่ายปกติของ Batomon ตัวนั้น"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "permanent-vs-battle-only",
+  "name": "Permanent vs Battle-only",
+  "nameTh": "ถาวร vs เฉพาะการต่อสู้",
+  "group": "battle",
+  "summary": "Permanent effects carry into later battles; effects marked for this battle expire afterward.",
+  "summaryTh": "เอฟเฟกต์ถาวรจะติดไปถึงการต่อสู้ครั้งต่อ ๆ ไป ส่วนเอฟเฟกต์ที่ระบุว่า \"ในการต่อสู้นี้\" จะหมดไปหลังจบการต่อสู้",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "A change explicitly marked permanently remains on that Batomon across later battles in the run.",
+     "A change marked for this battle ends after that battle.",
+     "Magic Lasso's exact copy retains level, shiny state, permanent bonuses, added types, and tracked progress. It targets the next opponent's top-middle Batomon, or the first occupied slot if that slot is empty.",
+     "A transformation can be persistent or battle-only, but it is still the same Batomon and keeps its persistent state."
+    ],
+    "itemsTh": [
+     "การเปลี่ยนแปลงที่ระบุว่า \"ถาวร\" จะติดอยู่กับ Batomon ตัวนั้นไปตลอดการต่อสู้ที่เหลือในรอบการเล่น",
+     "การเปลี่ยนแปลงที่ระบุว่า \"ในการต่อสู้นี้\" จะหมดไปหลังจบการต่อสู้นั้น",
+     "สำเนาที่ได้จาก Magic Lasso จะคงเลเวล สถานะ SHINY โบนัสถาวร ธาตุที่ถูกเพิ่ม และความคืบหน้าที่ติดตามไว้ โดยจะเลือก Batomon ตำแหน่งบนตรงกลางของคู่ต่อสู้ถัดไป หรือช่องแรกที่มี Batomon ถ้าช่องนั้นว่าง",
+     "การแปลงร่างอาจเป็นแบบถาวรหรือเฉพาะการต่อสู้ก็ได้ แต่ยังคงเป็น Batomon ตัวเดิมและคงสถานะถาวรไว้"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "poison",
+  "name": "Poison",
+  "nameTh": "พิษ",
+  "group": "combat",
+  "summary": "Poison deals steady stacking damage once per second without natural decay.",
+  "summaryTh": "พิษสร้างดาเมจแบบสะสมสแตกสม่ำเสมอวินาทีละครั้ง และไม่ลดลงเอง",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Poison deals damage equal to its current stack count once per second.",
+     "Poison does not decay after dealing damage.",
+     "Poison does not ignore Shield: if Shield is present, Poison damage is reduced by 15% before Shield absorbs it."
+    ],
+    "itemsTh": [
+     "พิษสร้างดาเมจเท่ากับจำนวนสแตกในขณะนั้น วินาทีละ 1 ครั้ง",
+     "พิษไม่ลดลงหลังจากสร้างดาเมจ",
+     "พิษไม่ได้ทะลุโล่ ถ้ามีโล่อยู่ ดาเมจพิษจะลดลง 15% ก่อนที่โล่จะดูดซับ"
+    ]
+   },
+   {
+    "heading": "Example: 4 Poison",
+    "headingTh": "ตัวอย่าง: พิษ 4 สแตก",
+    "ordered": true,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "At 1 second: deal 4 Poison damage and keep 4 stacks.",
+     "At 2 seconds: deal 4 again and keep 4 stacks."
+    ],
+    "itemsTh": [
+     "ที่ 1 วินาที: สร้างดาเมจพิษ 4 และยังคงมี 4 สแตก",
+     "ที่ 2 วินาที: สร้างดาเมจ 4 อีกครั้ง และยังคงมี 4 สแตก"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "protect",
+  "name": "Protect",
+  "nameTh": "ป้องกัน",
+  "group": "battle",
+  "summary": "Protect prevents a Knockout and spends one stack when it triggers.",
+  "summaryTh": "ป้องกัน (Protect) จะกันการน็อกเอาต์ และใช้ไป 1 สแตกเมื่อทำงาน",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "When a protected Batomon would be Knocked Out, Protect prevents that Knockout.",
+     "Protect decreases by 1 when triggered.",
+     "Protect does not prevent team HP from reaching zero and does not replace Shield."
+    ],
+    "itemsTh": [
+     "เมื่อ Batomon ที่มีป้องกันกำลังจะถูกน็อกเอาต์ ป้องกันจะกันการน็อกเอาต์นั้นไว้",
+     "ป้องกันลดลง 1 เมื่อทำงาน",
+     "ป้องกันไม่ได้กัน HP ของทีมไม่ให้ลดถึงศูนย์ และไม่ได้ใช้แทนโล่"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "same-tick-resolution",
+  "name": "Same-tick Resolution",
+  "nameTh": "ลำดับการทำงานในเฟรมเดียวกัน",
+  "group": "battle",
+  "summary": "Queued effects resolve in the order Shield, Damage, status application, then Heal. Some abilities have separate same-tick priorities.",
+  "summaryTh": "เอฟเฟกต์ที่อยู่ในคิวจะทำงานตามลำดับ: โล่ ดาเมจ ใส่สถานะผิดปกติ แล้วจึงฮีล ความสามารถบางอย่างมีลำดับความสำคัญแยกต่างหาก",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "First: apply Shield.",
+     "Second: resolve Damage.",
+     "Third: apply status effects.",
+     "Fourth: resolve Heal.",
+     "If both teams end that tick at 0 HP or less, the player receives the win."
+    ],
+    "itemsTh": [
+     "ลำดับแรก: ใส่โล่",
+     "ลำดับที่สอง: คิดดาเมจ",
+     "ลำดับที่สาม: ใส่สถานะผิดปกติ",
+     "ลำดับที่สี่: คิดฮีล",
+     "ถ้าทั้งสองทีมจบเฟรมนั้นโดยมี HP 0 หรือต่ำกว่า ผู้เล่นจะได้ชัยชนะ"
+    ]
+   },
+   {
+    "heading": "Order of queued effects",
+    "headingTh": "ลำดับของเอฟเฟกต์ในคิว",
+    "ordered": true,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Shield",
+     "Damage",
+     "Apply status effects",
+     "Heal"
+    ],
+    "itemsTh": [
+     "โล่",
+     "ดาเมจ",
+     "ใส่สถานะผิดปกติ",
+     "ฮีล"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "shield",
+  "name": "Shield",
+  "nameTh": "โล่",
+  "group": "combat",
+  "summary": "Shield is a temporary layer that absorbs incoming damage before shared team HP.",
+  "summaryTh": "โล่เป็นชั้นป้องกันชั่วคราวที่ดูดซับดาเมจที่เข้ามาก่อนถึง HP รวมของทีม",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Shield absorbs direct Damage before team HP.",
+     "If a team has Shield when Burn, Poison, or Shock damage lands, that status damage is reduced by 15% before Shield absorbs it.",
+     "Shield is separate from Protect: Shield absorbs damage, while Protect prevents Knockout."
+    ],
+    "itemsTh": [
+     "โล่ดูดซับดาเมจโดยตรงก่อนถึง HP ของทีม",
+     "ถ้าทีมมีโล่อยู่ตอนที่ดาเมจเผาไหม้ พิษ หรือช็อตเข้ามา ดาเมจสถานะนั้นจะลดลง 15% ก่อนที่โล่จะดูดซับ",
+     "โล่แยกจากป้องกัน (Protect): โล่ดูดซับดาเมจ ส่วนป้องกันกันการน็อกเอาต์"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "shiny",
+  "name": "Shiny",
+  "nameTh": "SHINY",
+  "group": "unit",
+  "summary": "Shiny Batomon use their own current stats and ability values rather than one universal multiplier.",
+  "summaryTh": "Batomon แบบ SHINY ใช้ค่าสถานะและค่าความสามารถของตัวเอง ไม่ได้ใช้ตัวคูณเดียวกันทั้งหมด",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "A shiny variant can have different level stats, ability text, or ability values from its normal variant.",
+     "Compare the exact normal and shiny entries for that Batomon; there is no single multiplier that describes every shiny.",
+     "If any ingredient in a merge is shiny, the merged result is shiny.",
+     "Shiny Berry chooses a random non-shiny Batomon that has a shiny form."
+    ],
+    "itemsTh": [
+     "ร่าง SHINY อาจมีค่าสถานะตามเลเวล ข้อความความสามารถ หรือตัวเลขในความสามารถต่างจากร่างปกติ",
+     "ให้เทียบข้อมูลร่างปกติกับร่าง SHINY ของ Batomon ตัวนั้นโดยตรง ไม่มีตัวคูณเดียวที่ใช้อธิบาย SHINY ได้ทุกตัว",
+     "ถ้ามีตัวใดตัวหนึ่งที่ใช้รวมร่างเป็น SHINY ผลลัพธ์ที่ได้จะเป็น SHINY",
+     "Shiny Berry จะเลือก Batomon ที่ยังไม่เป็น SHINY แต่มีร่าง SHINY แบบสุ่ม"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "shock",
+  "name": "Shock",
+  "nameTh": "ช็อต",
+  "group": "combat",
+  "summary": "Direct Damage triggers a separate Shock hit equal to the target's Shock stacks; Shock stays until removed.",
+  "summaryTh": "ดาเมจโดยตรงจะกระตุ้นการโจมตีจากช็อตแยกอีกครั้ง เท่ากับจำนวนสแตกช็อตของเป้าหมาย และช็อตจะอยู่จนกว่าจะถูกลบ",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "When direct Damage hits a team with Shock, Shock deals a separate hit equal to the current Shock stack count.",
+     "That Shock hit resolves before the direct hit, so it reaches Shield first.",
+     "Shock applied by a cast does not affect that same cast's direct Damage because status application follows Damage.",
+     "Shock does not decay naturally.",
+     "Burn, Poison, Shock, and Sudden Death damage do not trigger another Shock hit.",
+     "If Shield is present, the triggered Shock hit is reduced by 15% before Shield absorbs it."
+    ],
+    "itemsTh": [
+     "เมื่อดาเมจโดยตรงโดนทีมที่มีช็อต ช็อตจะสร้างการโจมตีแยกเท่ากับจำนวนสแตกช็อตในขณะนั้น",
+     "การโจมตีจากช็อตจะทำงานก่อนการโจมตีโดยตรง จึงไปโดนโล่ก่อน",
+     "ช็อตที่ใส่จากการร่ายครั้งหนึ่งจะไม่ส่งผลต่อดาเมจโดยตรงของการร่ายครั้งเดียวกัน เพราะการใส่สถานะผิดปกติเกิดหลังดาเมจ",
+     "ช็อตไม่ลดลงเอง",
+     "ดาเมจจากเผาไหม้ พิษ ช็อต และ Sudden Death จะไม่กระตุ้นช็อตซ้ำอีก",
+     "ถ้ามีโล่อยู่ การโจมตีจากช็อตจะลดลง 15% ก่อนที่โล่จะดูดซับ"
+    ]
+   },
+   {
+    "heading": "Direct hit example",
+    "headingTh": "ตัวอย่างการโจมตีโดยตรง",
+    "ordered": false,
+    "paragraphs": [
+     "This example has no damage modifiers. Shock resolves first as a separate hit and does not trigger another Shock hit."
+    ],
+    "paragraphsTh": [
+     "ตัวอย่างนี้ไม่มีตัวปรับดาเมจ ช็อตทำงานก่อนเป็นการโจมตีแยก และไม่กระตุ้นช็อตซ้ำอีก"
+    ],
+    "items": [],
+    "itemsTh": []
+   }
+  ]
+ },
+ {
+  "slug": "stat-caps",
+  "name": "Stat Caps",
+  "nameTh": "เพดานค่าสถานะ",
+  "group": "battle",
+  "summary": "Combat output stats, their percentage bonuses, Cooldown Speed, and the stat-gain multiplier use the 999,999,999 cap.",
+  "summaryTh": "ค่าสถานะการต่อสู้ โบนัสแบบเปอร์เซ็นต์ ความเร็วคูลดาวน์ และตัวคูณการได้รับค่าสถานะ มีเพดานที่ 999,999,999",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Cooldown Speed and the stat-gain multiplier also use this cap. String-based values, such as bonus Sell Value, use separate rules.",
+     "Those capped combat stats cannot increase beyond 999,999,999.",
+     "Cooldown and Multicast use separate rules: effective cooldown has a 0.1-second minimum and Multicast has a minimum of 1.",
+     "The combat-stat cap does not establish a cap for team HP, gold, shop values, or unrelated systems."
+    ],
+    "itemsTh": [
+     "ความเร็วคูลดาวน์และตัวคูณการได้รับค่าสถานะก็ใช้เพดานนี้เช่นกัน ค่าที่เก็บเป็นข้อความ เช่น มูลค่าขายโบนัส ใช้กฎแยกต่างหาก",
+     "ค่าสถานะการต่อสู้ที่มีเพดานจะเพิ่มเกิน 999,999,999 ไม่ได้",
+     "คูลดาวน์และมัลติแคสต์ใช้กฎแยก: คูลดาวน์จริงต่ำสุด 0.1 วินาที และมัลติแคสต์ต่ำสุด 1",
+     "เพดานค่าสถานะการต่อสู้ไม่ได้กำหนดเพดานของ HP ทีม เงิน ค่าในร้านค้า หรือระบบอื่นที่ไม่เกี่ยวข้อง"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "sudden-death",
+  "name": "Sudden Death",
+  "nameTh": "Sudden Death",
+  "group": "battle",
+  "summary": "Sudden Death begins at 30 battle seconds, then a sandstorm damages both teams every 0.5 seconds.",
+  "summaryTh": "Sudden Death เริ่มเมื่อการต่อสู้ผ่านไป 30 วินาที จากนั้นพายุทรายจะสร้างดาเมจให้ทั้งสองทีมทุก ๆ 0.5 วินาที",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Sudden Death begins when the battle timer reaches 30 seconds.",
+     "The first sandstorm hit follows after 0.5 seconds, and hits continue every 0.5 seconds.",
+     "Damage follows 8 × 2^(seconds active ÷ 3), doubling every 3 seconds.",
+     "Shield absorbs Sudden Death damage, but the 15% Shield reduction for Burn, Poison, and Shock does not apply to it.",
+     "The damage scales continuously while the popup shows a whole-number value."
+    ],
+    "itemsTh": [
+     "Sudden Death เริ่มเมื่อเวลาการต่อสู้ถึง 30 วินาที",
+     "พายุทรายครั้งแรกจะโจมตีหลังจากนั้น 0.5 วินาที และโจมตีต่อเนื่องทุก ๆ 0.5 วินาที",
+     "ดาเมจคำนวณจาก 8 × 2^(วินาทีที่เริ่มทำงาน ÷ 3) คือเพิ่มเป็น 2 เท่าทุก 3 วินาที",
+     "โล่ดูดซับดาเมจ Sudden Death ได้ แต่การลดดาเมจ 15% ของโล่ที่ใช้กับเผาไหม้ พิษ และช็อต ไม่มีผลกับ Sudden Death",
+     "ดาเมจเพิ่มขึ้นอย่างต่อเนื่อง แม้ว่าตัวเลขที่เด้งขึ้นมาจะแสดงเป็นจำนวนเต็ม"
+    ]
+   },
+   {
+    "heading": "Sandstorm curve",
+    "headingTh": "กราฟพายุทราย",
+    "ordered": false,
+    "paragraphs": [
+     "The curve doubles every 3 active seconds; damage is applied on each 0.5-second tick."
+    ],
+    "paragraphsTh": [
+     "ดาเมจเพิ่มเป็น 2 เท่าทุก 3 วินาทีที่ทำงาน และสร้างดาเมจทุกเฟรม 0.5 วินาที"
+    ],
+    "items": [],
+    "itemsTh": []
+   }
+  ]
+ },
+ {
+  "slug": "team-hp",
+  "name": "Team HP",
+  "nameTh": "HP ของทีม",
+  "group": "battle",
+  "summary": "Each side fights with one shared HP total rather than separate HP for every Batomon.",
+  "summaryTh": "แต่ละฝั่งต่อสู้ด้วย HP รวมก้อนเดียว ไม่ได้แยก HP ให้ Batomon แต่ละตัว",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Damage lowers shared team HP after Shield is exhausted.",
+     "Heal restores shared team HP without exceeding that battle's maximum.",
+     "Shield protects shared team HP by absorbing incoming damage first.",
+     "The HP bar never shows less than 0, but Damage can take the real team HP below 0.",
+     "Same-tick Heal adds to that real value. At 300 HP, 307 Damage leaves -7 HP, so a 30 Heal on that tick leaves 23 HP, not 30.",
+     "The winner check runs after Heal. A team survives the tick only if its real HP is above 0 after Heal.",
+     "If both teams end the same tick at 0 HP or less after ordered effects resolve, the player is awarded the win."
+    ],
+    "itemsTh": [
+     "ดาเมจจะลด HP รวมของทีมหลังจากโล่หมดแล้ว",
+     "ฮีลฟื้นฟู HP รวมของทีมได้ไม่เกินค่าสูงสุดของการต่อสู้นั้น",
+     "โล่ปกป้อง HP รวมของทีมด้วยการดูดซับดาเมจที่เข้ามาก่อน",
+     "แถบ HP ไม่เคยแสดงต่ำกว่า 0 แต่ดาเมจสามารถทำให้ HP จริงของทีมต่ำกว่า 0 ได้",
+     "ฮีลในเฟรมเดียวกันจะบวกเข้ากับค่าจริงนั้น เช่น ที่ HP 300 โดนดาเมจ 307 จะเหลือ -7 HP ดังนั้นฮีล 30 ในเฟรมนั้นจะเหลือ 23 HP ไม่ใช่ 30",
+     "การตรวจผู้ชนะทำหลังฮีล ทีมจะรอดเฟรมนั้นได้ก็ต่อเมื่อ HP จริงมากกว่า 0 หลังฮีล",
+     "ถ้าทั้งสองทีมจบเฟรมเดียวกันโดยมี HP 0 หรือต่ำกว่าหลังเอฟเฟกต์ตามลำดับทำงานเสร็จ ผู้เล่นจะได้ชัยชนะ"
+    ]
+   },
+   {
+    "heading": "Shared defense",
+    "headingTh": "การป้องกันร่วมกัน",
+    "ordered": true,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Shield absorbs incoming damage.",
+     "Remaining damage lowers the team's HP bar.",
+     "Heal restores that same HP bar after the ordered same-tick effects."
+    ],
+    "itemsTh": [
+     "โล่ดูดซับดาเมจที่เข้ามา",
+     "ดาเมจที่เหลือจะลดแถบ HP ของทีม",
+     "ฮีลฟื้นฟูแถบ HP เดียวกันนั้นหลังจากเอฟเฟกต์ในเฟรมเดียวกันทำงานตามลำดับ"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "transformation",
+  "name": "Transformation",
+  "nameTh": "การแปลงร่าง",
+  "group": "unit",
+  "summary": "Transformation changes species while keeping the Batomon's persistent state.",
+  "summaryTh": "การแปลงร่างจะเปลี่ยนสายพันธุ์ โดยยังคงสถานะถาวรของ Batomon ไว้",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Species changes retain shiny state, permanent bonuses, added types, and tracked progress. The level cannot exceed the new species' maximum.",
+     "A transformation can be persistent, such as a transformation stone, or limited to one battle, such as MissingN.'s battle-start effect.",
+     "MissingN. is a real Batomon in the current catalog, not a placeholder for missing data. Its name includes the final period.",
+     "Aerophim revives adjacent allies, grants permanent Multicast, and transforms them into same-rarity species from the active set, excluding Riglet."
+    ],
+    "itemsTh": [
+     "การเปลี่ยนสายพันธุ์จะคงสถานะ SHINY โบนัสถาวร ธาตุที่ถูกเพิ่ม และความคืบหน้าที่ติดตามไว้ เลเวลจะไม่เกินเลเวลสูงสุดของสายพันธุ์ใหม่",
+     "การแปลงร่างอาจเป็นแบบถาวร เช่น หินแปลงร่าง หรือเฉพาะการต่อสู้ครั้งเดียว เช่น เอฟเฟกต์ตอนเริ่มการต่อสู้ของ MissingN.",
+     "MissingN. เป็น Batomon จริงในแคตตาล็อกปัจจุบัน ไม่ใช่ข้อมูลที่หายไป และชื่อของมันมีจุดต่อท้ายด้วย",
+     "Aerophim จะชุบชีวิตเพื่อนร่วมทีมที่อยู่ติดกัน ให้มัลติแคสต์ถาวร และแปลงร่างพวกมันเป็นสายพันธุ์ที่มีความหายากเดียวกันจากชุดที่ใช้อยู่ ยกเว้น Riglet"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "triggering",
+  "name": "Triggering",
+  "nameTh": "ทริกเกอร์",
+  "group": "timing",
+  "summary": "Trigger effects start the named Batomon's full cast sequence using the effect's exact target.",
+  "summaryTh": "เอฟเฟกต์ทริกเกอร์จะสั่งให้ Batomon ที่ระบุร่ายครบทั้งชุด ตามเป้าหมายที่เอฟเฟกต์ระบุไว้",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "A triggered Batomon uses its current Multicast for that cast sequence.",
+     "A Trigger alone does not reset current cooldown progress. The Batomon continues toward its next timed cast.",
+     "A Trigger effect uses its printed target, such as an ally above, adjacent allies, or the Batomon itself.",
+     "Trigger chains keep printed exclusions; Puffloon and Torrantler explicitly exclude other copies of themselves.",
+     "Coffee and Draconarch can activate Berroon's On Battle Start effect in the current build."
+    ],
+    "itemsTh": [
+     "Batomon ที่ถูกทริกเกอร์จะใช้มัลติแคสต์ปัจจุบันของตัวเองในการร่ายชุดนั้น",
+     "การทริกเกอร์อย่างเดียวไม่ได้รีเซ็ตความคืบหน้าคูลดาวน์ปัจจุบัน Batomon จะยังนับต่อไปจนถึงการร่ายตามเวลาครั้งถัดไป",
+     "เอฟเฟกต์ทริกเกอร์ใช้เป้าหมายที่ระบุไว้ เช่น เพื่อนร่วมทีมด้านบน เพื่อนร่วมทีมที่อยู่ติดกัน หรือตัวเอง",
+     "ทริกเกอร์ต่อเนื่องยังคงข้อยกเว้นที่ระบุไว้ Puffloon และ Torrantler ระบุชัดว่ายกเว้นตัวเดียวกันตัวอื่น",
+     "Coffee และ Draconarch สามารถเปิดใช้เอฟเฟกต์ \"เมื่อเริ่มการต่อสู้\" ของ Berroon ได้ในบิลด์ปัจจุบัน"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "types",
+  "name": "Types",
+  "nameTh": "ธาตุ",
+  "group": "unit",
+  "summary": "Types determine which type-targeted effects include a Batomon and can power unique-type bonuses.",
+  "summaryTh": "ธาตุเป็นตัวกำหนดว่าเอฟเฟกต์ที่เลือกเป้าหมายตามธาตุจะรวม Batomon ตัวใดบ้าง และใช้กับโบนัสธาตุที่ไม่ซ้ำกันได้",
+  "sections": [
+   {
+    "heading": "How it works",
+    "headingTh": "ทำงานอย่างไร",
+    "ordered": false,
+    "paragraphs": [],
+    "paragraphsTh": [],
+    "items": [
+     "Current effects can target allies by type, including Fire, Water, Electric, Toxic, Flying, Rock, Grass, and Bug.",
+     "Some effects add a type; Chef gives single-typed monsters Fire typing.",
+     "Unique-type effects count distinct team types. A Batomon with the all type contributes every real type, not one extra type.",
+     "Added types remain through both merges and transformations."
+    ],
+    "itemsTh": [
+     "เอฟเฟกต์ปัจจุบันสามารถเลือกเพื่อนร่วมทีมตามธาตุได้ เช่น ไฟ น้ำ ไฟฟ้า พิษ บิน หิน หญ้า และแมลง",
+     "เอฟเฟกต์บางอย่างเพิ่มธาตุให้ได้ เช่น Chef ให้มอนสเตอร์ที่มีธาตุเดียวได้ธาตุไฟเพิ่ม",
+     "เอฟเฟกต์ธาตุที่ไม่ซ้ำกันจะนับจำนวนธาตุที่แตกต่างกันในทีม Batomon ที่มีธาตุ \"ทุกธาตุ\" (All) จะนับเป็นทุกธาตุจริง ไม่ใช่เพิ่มแค่ 1 ธาตุ",
+     "ธาตุที่ถูกเพิ่มเข้ามาจะคงอยู่ทั้งหลังรวมร่างและหลังแปลงร่าง"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,347 @@
+[
+ {
+  "slug": "mysterious-trainer",
+  "name": "???",
+  "image": "/images/trainer/mysterious_trainer.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [],
+  "cost": null,
+  "text": "Gain MissingN.",
+  "textTh": "ได้รับ MissingN."
+ },
+ {
+  "slug": "black-belt",
+  "name": "Black Belt",
+  "image": "/images/trainer/black_belt.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region"
+  ],
+  "cost": null,
+  "text": "After each battle, if you have exactly 1 Fighting monster on your team, activate its On Victory ability.",
+  "textTh": "หลังจบการต่อสู้แต่ละครั้ง ถ้าในทีมของคุณมีมอนสเตอร์ธาตุต่อสู้อยู่ 1 ตัวพอดี จะเปิดใช้ความสามารถ \"เมื่อชนะ\" ของมัน"
+ },
+ {
+  "slug": "bug-catcher",
+  "name": "Bug Catcher",
+  "image": "/images/trainer/bug_catcher.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "The first Bug monster you buy each day costs $10 less.",
+  "textTh": "มอนสเตอร์ธาตุแมลงตัวแรกที่คุณซื้อในแต่ละวันราคาถูกลง $10"
+ },
+ {
+  "slug": "burglar",
+  "name": "Burglar",
+  "image": "/images/trainer/burglar.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "When you pick from a Trinket gift, also steal one of the other choices at random.",
+  "textTh": "เมื่อคุณเลือกของขวัญทริงเก็ต จะขโมยตัวเลือกอื่นมาอีก 1 ชิ้นแบบสุ่ม"
+ },
+ {
+  "slug": "pyromaniac",
+  "name": "Chef",
+  "image": "/images/trainer/pyromaniac.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Your singled-typed monsters gain Fire typing. Your Fire monsters have +2 Burn.",
+  "textTh": "มอนสเตอร์ที่มีธาตุเดียวจะได้ธาตุไฟเพิ่ม และมอนสเตอร์ธาตุไฟของคุณได้ +2 เผาไหม้"
+ },
+ {
+  "slug": "chemist",
+  "name": "Chemist",
+  "image": "/images/trainer/chemist.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Your Toxic monsters have +3 Poison. When any monster levels up, increase this effect by +1 Poison.",
+  "textTh": "มอนสเตอร์ธาตุพิษของคุณได้ +3 พิษ เมื่อมอนสเตอร์ตัวใดก็ตามเลเวลอัป เอฟเฟกต์นี้จะเพิ่มขึ้นอีก +1 พิษ"
+ },
+ {
+  "slug": "egg-breeder",
+  "name": "Egg Breeder",
+  "image": "/images/trainer/egg_breeder.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain a Purple Egg that hatches into a level 2 Super Rare monster in 5 days.",
+  "textTh": "ได้รับ Purple Egg ที่จะฟักเป็นมอนสเตอร์ระดับหายากมากเลเวล 2 ภายใน 5 วัน"
+ },
+ {
+  "slug": "gamer",
+  "name": "Gamer",
+  "image": "/images/trainer/gamer.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain a Mythical monster and $30 on day 8.",
+  "textTh": "ได้รับมอนสเตอร์ระดับเทพนิยาย 1 ตัว และ $30 ในวันที่ 8"
+ },
+ {
+  "slug": "gentleman",
+  "name": "Gentleman",
+  "image": "/images/trainer/gentleman.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Increase Income by $5. From day 4 onwards, your shop no longer stocks Common or Uncommon monsters.",
+  "textTh": "เพิ่มรายได้ $5 ตั้งแต่วันที่ 4 เป็นต้นไป ร้านค้าของคุณจะไม่มีมอนสเตอร์ระดับธรรมดาหรือไม่ธรรมดาอีก"
+ },
+ {
+  "slug": "youngster-f",
+  "name": "Lucky Girl",
+  "image": "/images/trainer/youngster_f.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "SHINY monsters are more likely to appear.",
+  "textTh": "มอนสเตอร์ SHINY มีโอกาสปรากฏมากขึ้น"
+ },
+ {
+  "slug": "mad-scientist",
+  "name": "Mad Scientist",
+  "image": "/images/trainer/mad_scientist.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "On day 7, transform monsters on your active team into random level 1 Legendary monsters.",
+  "textTh": "ในวันที่ 7 แปลงร่างมอนสเตอร์ในทีมหลักของคุณเป็นมอนสเตอร์ระดับตำนานเลเวล 1 แบบสุ่ม"
+ },
+ {
+  "slug": "masked-man",
+  "name": "Masked Man",
+  "image": "/images/trainer/masked_man.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Every 4 days, choose a trainer and gain their ability.",
+  "textTh": "ทุก ๆ 4 วัน เลือกเทรนเนอร์ 1 คนและได้รับความสามารถของเทรนเนอร์คนนั้น"
+ },
+ {
+  "slug": "monster-ranger",
+  "name": "Monster Ranger",
+  "image": "/images/trainer/monster_ranger.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Start with an Uncommon monster. Get another copy of that monster every 2 days.",
+  "textTh": "เริ่มเกมพร้อมมอนสเตอร์ระดับไม่ธรรมดา 1 ตัว และได้รับตัวเดียวกันเพิ่มอีก 1 ตัวทุก ๆ 2 วัน"
+ },
+ {
+  "slug": "musician",
+  "name": "Musician",
+  "image": "/images/trainer/musician.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "If you have exactly 1 Electric monster on your team, it will have +150% Shock.",
+  "textTh": "ถ้าในทีมของคุณมีมอนสเตอร์ธาตุไฟฟ้า 1 ตัวพอดี ตัวนั้นจะได้ +150% ช็อต"
+ },
+ {
+  "slug": "painter",
+  "name": "Painter",
+  "image": "/images/trainer/painter.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Random species will be painted with every type this run.",
+  "textTh": "สายพันธุ์แบบสุ่มจะถูกระบายให้มีทุกธาตุในรอบการเล่นนี้"
+ },
+ {
+  "slug": "redhead",
+  "name": "Redhead",
+  "image": "/images/trainer/redhead.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Your Fire monsters have +2 Burn for each victory.",
+  "textTh": "มอนสเตอร์ธาตุไฟของคุณได้ +2 เผาไหม้ ต่อชัยชนะ 1 ครั้ง"
+ },
+ {
+  "slug": "lady",
+  "name": "Rich Lady",
+  "image": "/images/trainer/lady.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain shop rank +2 and $10.",
+  "textTh": "ได้แรงก์ร้านค้า +2 และ $10"
+ },
+ {
+  "slug": "scavenger",
+  "name": "Scavenger",
+  "image": "/images/trainer/scavenger.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain an additional copy of each non-unique Common or Uncommon Trinket from a gift.",
+  "textTh": "ได้รับทริงเก็ตระดับธรรมดาหรือไม่ธรรมดา (ที่ไม่ใช่ชิ้นเดียว) จากของขวัญเพิ่มอีก 1 ชิ้นทุกครั้ง"
+ },
+ {
+  "slug": "shopkeeper",
+  "name": "Shopkeeper",
+  "image": "/images/trainer/shopkeeper.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Your shop stocks Item 1 rarity tier higher and cost 15% less.",
+  "textTh": "ร้านค้าของคุณขายไอเท็มที่มีความหายากสูงขึ้น 1 ขั้น และราคาถูกลง 15%"
+ },
+ {
+  "slug": "smuggler",
+  "name": "Smuggler",
+  "image": "/images/trainer/smuggler.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Batomon from other regions appear in your shop and cost 35% less.",
+  "textTh": "Batomon จากภูมิภาคอื่นจะปรากฏในร้านค้าของคุณ และราคาถูกลง 35%"
+ },
+ {
+  "slug": "swim-coach",
+  "name": "Swim Coach",
+  "image": "/images/trainer/swim_coach.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain a random Water monster each day.",
+  "textTh": "ได้รับมอนสเตอร์ธาตุน้ำแบบสุ่มทุกวัน"
+ },
+ {
+  "slug": "treasure-hunter",
+  "name": "Treasure Hunter",
+  "image": "/images/trainer/treasure_hunter.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "When you get Trinket gifts, your choices are 1 rarity tier higher.",
+  "textTh": "เมื่อได้รับของขวัญทริงเก็ต ตัวเลือกของคุณจะมีความหายากสูงขึ้น 1 ขั้น"
+ },
+ {
+  "slug": "twins",
+  "name": "Twins",
+  "image": "/images/trainer/twins.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "When monsters merge into level 3, gain an exact copy with a sell value of 0.",
+  "textTh": "เมื่อมอนสเตอร์รวมร่างจนถึงเลเวล 3 จะได้รับสำเนาแบบเดียวกันทุกประการ 1 ตัว ที่มีมูลค่าขาย 0"
+ },
+ {
+  "slug": "witch",
+  "name": "Witch",
+  "image": "/images/trainer/witch.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "The first shop rolled each day contains a Potion.",
+  "textTh": "ร้านค้าแรกที่สุ่มในแต่ละวันจะมียา (Potion) 1 ขวด"
+ },
+ {
+  "slug": "youngster-m",
+  "name": "Youngster",
+  "image": "/images/trainer/youngster_m.png",
+  "rarity": null,
+  "attributes": [],
+  "regions": [
+   "Jinto region",
+   "Pantra region"
+  ],
+  "cost": null,
+  "text": "Gain 3 free rerolls every day.",
+  "textTh": "ได้รีโรลฟรี 3 ครั้งทุกวัน"
+ }
+]

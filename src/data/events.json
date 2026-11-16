@@ -1,0 +1,570 @@
+[
+ {
+  "slug": "bug-collector",
+  "name": "Bug Collector",
+  "image": "/images/event/bug_collector.png",
+  "tier": 1,
+  "text": "You run into a bug collector. He offers to share with you one of the bugs he has caught today.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Take the fighter ant",
+    "effect": "Gain a level 2 SHINY Guardiant",
+    "notes": [],
+    "labelTh": "เอามดนักสู้",
+    "effectTh": "ได้รับ Guardiant แบบ SHINY เลเวล 2",
+    "notesTh": []
+   },
+   {
+    "label": "Take the gold beetle",
+    "effect": "Gain Gildshell with +20 Damage",
+    "notes": [],
+    "labelTh": "เอาด้วงทอง",
+    "effectTh": "ได้รับ Gildshell พร้อม +20 ดาเมจ",
+    "notesTh": []
+   },
+   {
+    "label": "Take the boxing mantis",
+    "effect": "Gain Brawlmantis with +2 Multicast",
+    "notes": [],
+    "labelTh": "เอาตั๊กแตนนักมวย",
+    "effectTh": "ได้รับ Brawlmantis พร้อม +2 มัลติแคสต์",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณเจอนักสะสมแมลง เขาเสนอจะแบ่งแมลงที่จับได้วันนี้ให้คุณหนึ่งตัว",
+  "requirementTh": null
+ },
+ {
+  "slug": "dragons-nest",
+  "name": "Dragons Nest",
+  "image": "/images/event/dragons_nest.png",
+  "tier": 1,
+  "text": "You stumble upon a dragon's hoard. Take something before the dragon comes back!",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Take the egg",
+    "effect": "Gain Dragon Egg",
+    "notes": [],
+    "labelTh": "เอาไข่",
+    "effectTh": "ได้รับ Dragon Egg",
+    "notesTh": []
+   },
+   {
+    "label": "Take the sword",
+    "effect": "Gain Hero's Sword",
+    "notes": [],
+    "labelTh": "เอาดาบ",
+    "effectTh": "ได้รับ Hero's Sword",
+    "notesTh": []
+   },
+   {
+    "label": "Take the coins",
+    "effect": "Gain $20",
+    "notes": [],
+    "labelTh": "เอาเหรียญ",
+    "effectTh": "ได้รับ $20",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณบังเอิญเจอกองสมบัติของมังกร รีบหยิบอะไรสักอย่างก่อนมังกรจะกลับมา!",
+  "requirementTh": null
+ },
+ {
+  "slug": "rainbow-berry",
+  "name": "Rainbow Berry",
+  "image": "/images/event/rainbow_berry.png",
+  "tier": 1,
+  "text": "As you wade through the forest, you stumble upon a berry bush. In the bush is a peculiar rainbow berry.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Feed it to a monster",
+    "effect": "Turn a monster SHINY",
+    "notes": [
+     "Target: A non-shiny Batomon with a shiny form"
+    ],
+    "labelTh": "ให้มอนสเตอร์กิน",
+    "effectTh": "เปลี่ยนมอนสเตอร์ 1 ตัวให้เป็น SHINY",
+    "notesTh": [
+     "เป้าหมาย: Batomon ที่ยังไม่เป็น SHINY แต่มีร่าง SHINY"
+    ]
+   },
+   {
+    "label": "Take it",
+    "effect": "Gain Rainbow Berry",
+    "notes": [],
+    "labelTh": "เอาไป",
+    "effectTh": "ได้รับ Rainbow Berry",
+    "notesTh": []
+   },
+   {
+    "label": "Sell it at the market",
+    "effect": "Gain $20",
+    "notes": [],
+    "labelTh": "นำไปขายที่ตลาด",
+    "effectTh": "ได้รับ $20",
+    "notesTh": []
+   }
+  ],
+  "textTh": "ขณะที่คุณลุยผ่านป่า คุณบังเอิญเจอพุ่มเบอร์รี่ และในพุ่มนั้นมีเบอร์รี่สีรุ้งแปลกประหลาดอยู่ลูกหนึ่ง",
+  "requirementTh": null
+ },
+ {
+  "slug": "traveling-merchant",
+  "name": "Traveling Merchant",
+  "image": "/images/event/traveling_merchant.png",
+  "tier": 1,
+  "text": "You meet a traveling merchant. He offers you his strange wares.",
+  "requirement": "Available after 6 completed games.",
+  "options": [
+   {
+    "label": "Take the exotic monster",
+    "effect": "Gain a foreign Rare monster. It can now appear in your shop.",
+    "notes": [],
+    "labelTh": "เอามอนสเตอร์ต่างถิ่น",
+    "effectTh": "ได้รับมอนสเตอร์ระดับหายากจากต่างภูมิภาค 1 ตัว และตั้งแต่นี้มันจะปรากฏในร้านค้าของคุณได้",
+    "notesTh": []
+   },
+   {
+    "label": "Take the strange lens",
+    "effect": "Gain Kaleidoscope",
+    "notes": [],
+    "labelTh": "เอาเลนส์ประหลาด",
+    "effectTh": "ได้รับ Kaleidoscope",
+    "notesTh": []
+   },
+   {
+    "label": "Take the dull-looking gem",
+    "effect": "Gain Fake Diamond",
+    "notes": [],
+    "labelTh": "เอาอัญมณีที่ดูหมองๆ",
+    "effectTh": "ได้รับ Fake Diamond",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณพบพ่อค้าเร่ เขาเสนอขายสินค้าแปลก ๆ ให้คุณ",
+  "requirementTh": "ปลดล็อกหลังจากเล่นจบครบ 6 เกม"
+ },
+ {
+  "slug": "baby-basilisk",
+  "name": "Baby Basilisk",
+  "image": "/images/event/baby_basilisk.png",
+  "tier": 2,
+  "text": "In the middle of a forest, you come across a crying baby basilisk monster. It seems it has gotten lost from its parents.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Adopt it",
+    "effect": "Gain Ignit",
+    "notes": [],
+    "labelTh": "รับมาเลี้ยง",
+    "effectTh": "ได้รับ Ignit",
+    "notesTh": []
+   },
+   {
+    "label": "Help it find its parents",
+    "effect": "Get a Rare trinket gift",
+    "notes": [],
+    "labelTh": "ช่วยมันตามหาพ่อแม่",
+    "effectTh": "รับของขวัญทริงเก็ตระดับหายาก",
+    "notesTh": []
+   },
+   {
+    "label": "Claim the missing Batomon bounty",
+    "effect": "Gain $40",
+    "notes": [],
+    "labelTh": "รับเงินรางวัลตามหา Batomon ที่หายไป",
+    "effectTh": "ได้รับ $40",
+    "notesTh": []
+   }
+  ],
+  "textTh": "กลางป่าลึก คุณพบลูกมอนสเตอร์บาซิลิสก์กำลังร้องไห้ ดูเหมือนว่ามันจะพลัดหลงจากพ่อแม่",
+  "requirementTh": null
+ },
+ {
+  "slug": "fossil-discovery",
+  "name": "Fossil Discovery",
+  "image": "/images/event/fossil_discovery.png",
+  "tier": 2,
+  "text": "You discover a winged fossil deep inside a cave.",
+  "requirement": "Available after 3 completed games.",
+  "options": [
+   {
+    "label": "Take it to a lab and revive it",
+    "effect": "Gain Talonite",
+    "notes": [],
+    "labelTh": "นำไปที่แล็บเพื่อชุบชีวิต",
+    "effectTh": "ได้รับ Talonite",
+    "notesTh": []
+   },
+   {
+    "label": "Keep it",
+    "effect": "Gain Winged Fossil",
+    "notes": [],
+    "labelTh": "เก็บไว้เอง",
+    "effectTh": "ได้รับ Winged Fossil",
+    "notesTh": []
+   },
+   {
+    "label": "Sell it",
+    "effect": "Gain $40",
+    "notes": [],
+    "labelTh": "ขายทิ้ง",
+    "effectTh": "ได้รับ $40",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณค้นพบฟอสซิลมีปีกในส่วนลึกของถ้ำ",
+  "requirementTh": "ปลดล็อกหลังจากเล่นจบครบ 3 เกม"
+ },
+ {
+  "slug": "meteor-crash",
+  "name": "Meteor Crash",
+  "image": "/images/event/meteor_crash.png",
+  "tier": 2,
+  "text": "You see a meteor fly through the sky and then crash nearby. You rush over to see the meteor with a glowing gem embed in it.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Touch the glowing gem",
+    "effect": "Level up a level 1 monster",
+    "notes": [
+     "Target: A level 1 Batomon"
+    ],
+    "labelTh": "แตะอัญมณีเรืองแสง",
+    "effectTh": "เลเวลอัปมอนสเตอร์เลเวล 1 1 ตัว",
+    "notesTh": [
+     "เป้าหมาย: Batomon เลเวล 1"
+    ]
+   },
+   {
+    "label": "Mine the meteor",
+    "effect": "Gain Meteorite",
+    "notes": [],
+    "labelTh": "ขุดอุกกาบาต",
+    "effectTh": "ได้รับ Meteorite",
+    "notesTh": []
+   },
+   {
+    "label": "Take some meteor debris and sell it",
+    "effect": "Gain $40",
+    "notes": [],
+    "labelTh": "เก็บเศษอุกกาบาตไปขาย",
+    "effectTh": "ได้รับ $40",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณเห็นอุกกาบาตพุ่งผ่านท้องฟ้าแล้วตกลงมาใกล้ ๆ คุณรีบวิ่งไปดูและพบว่ามีอัญมณีเรืองแสงฝังอยู่ในอุกกาบาต",
+  "requirementTh": null
+ },
+ {
+  "slug": "pond-fairy",
+  "name": "Pond Fairy",
+  "image": "/images/event/pond_fairy.png",
+  "tier": 2,
+  "text": "As you stroll through the forest, a blue fairy monster emerges from a nearby pond. The fairy says it will grant you a wish.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Wish for fame",
+    "effect": "Increase shop rank by 2",
+    "notes": [],
+    "labelTh": "ขอพรให้มีชื่อเสียง",
+    "effectTh": "เพิ่มแรงก์ร้านค้า 2",
+    "notesTh": []
+   },
+   {
+    "label": "Wish for wealth",
+    "effect": "Gain Gold Bar",
+    "notes": [],
+    "labelTh": "ขอพรให้ร่ำรวย",
+    "effectTh": "ได้รับ Gold Bar",
+    "notesTh": []
+   },
+   {
+    "label": "Capture the fairy",
+    "effect": "Gain Wishwash",
+    "notes": [],
+    "labelTh": "จับนางฟ้า",
+    "effectTh": "ได้รับ Wishwash",
+    "notesTh": []
+   }
+  ],
+  "textTh": "ขณะที่คุณเดินเล่นในป่า มอนสเตอร์นางฟ้าสีฟ้าตัวหนึ่งโผล่ขึ้นมาจากบ่อน้ำใกล้ ๆ นางฟ้าบอกว่าจะให้พรคุณหนึ่งข้อ",
+  "requirementTh": null
+ },
+ {
+  "slug": "dragon-tamer",
+  "name": "Dragon Tamer",
+  "image": "/images/event/dragon_tamer.png",
+  "tier": 3,
+  "text": "You run into a traveling dragon tamer. He says he has too many dragons to take care of and offers you to adopt one.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Adopt the one with the big horn",
+    "effect": "Gain a SHINY Saberhorn",
+    "notes": [],
+    "labelTh": "รับตัวที่มีเขาใหญ่มาเลี้ยง",
+    "effectTh": "ได้รับ Saberhorn แบบ SHINY",
+    "notesTh": []
+   },
+   {
+    "label": "Adopt the one with the crown",
+    "effect": "Gain a SHINY Draconarch",
+    "notes": [],
+    "labelTh": "รับตัวที่สวมมงกุฎมาเลี้ยง",
+    "effectTh": "ได้รับ Draconarch แบบ SHINY",
+    "notesTh": []
+   },
+   {
+    "label": "Adopt the long one",
+    "effect": "Gain a SHINY Onsetra",
+    "notes": [],
+    "labelTh": "รับตัวที่ยาว ๆ มาเลี้ยง",
+    "effectTh": "ได้รับ Onsetra แบบ SHINY",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณเจอนักฝึกมังกรพเนจร เขาบอกว่ามีมังกรมากเกินกว่าจะดูแลไหว และเสนอให้คุณรับไปเลี้ยงหนึ่งตัว",
+  "requirementTh": null
+ },
+ {
+  "slug": "dryad-statue",
+  "name": "Dryad Statue",
+  "image": "/images/event/dryad_statue.png",
+  "tier": 3,
+  "text": "You explore deep into the woods and find a statue with a glowing gem embedded in its head.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Pray to it",
+    "effect": "Give a monster Grass typing, Gain Dryadell",
+    "notes": [
+     "Target: A Batomon without Grass typing"
+    ],
+    "labelTh": "สวดภาวนาต่อรูปปั้น",
+    "effectTh": "ให้มอนสเตอร์ 1 ตัวได้ธาตุหญ้า และได้รับ Dryadell",
+    "notesTh": [
+     "เป้าหมาย: Batomon ที่ไม่มีธาตุหญ้า"
+    ]
+   },
+   {
+    "label": "Take the gem",
+    "effect": "Gain Mysterious Gem",
+    "notes": [],
+    "labelTh": "เอาอัญมณี",
+    "effectTh": "ได้รับ Mysterious Gem",
+    "notesTh": []
+   },
+   {
+    "label": "Gently touch it",
+    "effect": "Gain Dryad's Charm",
+    "notes": [],
+    "labelTh": "แตะเบา ๆ",
+    "effectTh": "ได้รับ Dryad's Charm",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณสำรวจลึกเข้าไปในป่าและพบรูปปั้นที่มีอัญมณีเรืองแสงฝังอยู่บนศีรษะ",
+  "requirementTh": null
+ },
+ {
+  "slug": "dryad-statue-oshima",
+  "name": "Dryad Statue Oshima",
+  "image": "/images/event/dryad_statue_oshima.png",
+  "tier": 3,
+  "text": "You explore deep into the woods and find a statue with a glowing gem embedded in its head.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Pray to it",
+    "effect": "Give a monster Grass typing, Gain Ginsage",
+    "notes": [
+     "Target: A Batomon without Grass typing"
+    ],
+    "labelTh": "สวดภาวนาต่อรูปปั้น",
+    "effectTh": "ให้มอนสเตอร์ 1 ตัวได้ธาตุหญ้า และได้รับ Ginsage",
+    "notesTh": [
+     "เป้าหมาย: Batomon ที่ไม่มีธาตุหญ้า"
+    ]
+   },
+   {
+    "label": "Take the gem",
+    "effect": "Gain Mysterious Gem",
+    "notes": [],
+    "labelTh": "เอาอัญมณี",
+    "effectTh": "ได้รับ Mysterious Gem",
+    "notesTh": []
+   },
+   {
+    "label": "Gently touch it",
+    "effect": "Gain Dryad's Charm",
+    "notes": [],
+    "labelTh": "แตะเบา ๆ",
+    "effectTh": "ได้รับ Dryad's Charm",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณสำรวจลึกเข้าไปในป่าและพบรูปปั้นที่มีอัญมณีเรืองแสงฝังอยู่บนศีรษะ",
+  "requirementTh": null
+ },
+ {
+  "slug": "genius-inventor",
+  "name": "Genius Inventor",
+  "image": "/images/event/genius_inventor.png",
+  "tier": 3,
+  "text": "You encounter a genius inventor. He asks if you want to test any of his new inventions.",
+  "requirement": "Available after 5 completed games.",
+  "options": [
+   {
+    "label": "Test the Recombobulator",
+    "effect": "Randomly transform your monsters 1 rarity higher (max Mythical rarity)",
+    "notes": [
+     "Resolves at the start of the next shop."
+    ],
+    "labelTh": "ทดสอบเครื่อง Recombobulator",
+    "effectTh": "แปลงร่างมอนสเตอร์ของคุณแบบสุ่มให้มีความหายากสูงขึ้น 1 ขั้น (สูงสุดระดับเทพนิยาย)",
+    "notesTh": [
+     "มีผลเมื่อเริ่มร้านค้าครั้งถัดไป"
+    ]
+   },
+   {
+    "label": "Test the Shockify Ray",
+    "effect": "Give a monster Electric typing and +5 Shock",
+    "notes": [
+     "Target: A Batomon without Electric typing"
+    ],
+    "labelTh": "ทดสอบปืนลำแสง Shockify Ray",
+    "effectTh": "ให้มอนสเตอร์ 1 ตัวได้ธาตุไฟฟ้าและ +5 ช็อต",
+    "notesTh": [
+     "เป้าหมาย: Batomon ที่ไม่มีธาตุไฟฟ้า"
+    ]
+   },
+   {
+    "label": "Test the Gold-o-matic",
+    "effect": "Gain Gold-o-matic",
+    "notes": [],
+    "labelTh": "ทดสอบ Gold-o-matic",
+    "effectTh": "ได้รับ Gold-o-matic",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณได้พบกับนักประดิษฐ์อัจฉริยะ เขาถามว่าคุณอยากทดลองสิ่งประดิษฐ์ใหม่ของเขาสักชิ้นไหม",
+  "requirementTh": "ปลดล็อกหลังจากเล่นจบครบ 5 เกม"
+ },
+ {
+  "slug": "professor-encounter",
+  "name": "Professor Encounter",
+  "image": "/images/event/professor_encounter.png",
+  "tier": 3,
+  "text": "You run into a monster professor who's out doing research. He asks if there is anything you need help with?",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Get advice on monster training",
+    "effect": "Level up a monster (max level 4)",
+    "notes": [
+     "Target: A Batomon below level 4"
+    ],
+    "labelTh": "ขอคำแนะนำเรื่องการฝึกมอนสเตอร์",
+    "effectTh": "เลเวลอัปมอนสเตอร์ 1 ตัว (สูงสุดเลเวล 4)",
+    "notesTh": [
+     "เป้าหมาย: Batomon ที่เลเวลต่ำกว่า 4"
+    ]
+   },
+   {
+    "label": "Ask about his research",
+    "effect": "Gain Research Notes",
+    "notes": [],
+    "labelTh": "ถามเกี่ยวกับงานวิจัยของเขา",
+    "effectTh": "ได้รับ Research Notes",
+    "notesTh": []
+   },
+   {
+    "label": "Get investment advice",
+    "effect": "Gain $60",
+    "notes": [],
+    "labelTh": "ขอคำแนะนำเรื่องการลงทุน",
+    "effectTh": "ได้รับ $60",
+    "notesTh": []
+   }
+  ],
+  "textTh": "คุณเจอศาสตราจารย์มอนสเตอร์ที่ออกมาทำวิจัย เขาถามว่ามีอะไรให้ช่วยไหม",
+  "requirementTh": null
+ },
+ {
+  "slug": "endless-boss-prep",
+  "name": "Endless Boss Prep",
+  "image": "/images/event/endless_boss_prep.png",
+  "tier": 4,
+  "text": "You've finally made it this far. You might need one of these for the final battle",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Take the dragon",
+    "effect": "Gain a level 2 SHINY Celestia",
+    "notes": [],
+    "labelTh": "เอามังกร",
+    "effectTh": "ได้รับ Celestia แบบ SHINY เลเวล 2",
+    "notesTh": []
+   },
+   {
+    "label": "Take the statue",
+    "effect": "Gain a level 4 SHINY Cherubble",
+    "notes": [],
+    "labelTh": "เอารูปปั้น",
+    "effectTh": "ได้รับ Cherubble แบบ SHINY เลเวล 4",
+    "notesTh": []
+   },
+   {
+    "label": "Take the charm",
+    "effect": "Gain Mysterious Charm",
+    "notes": [],
+    "labelTh": "เอาเครื่องราง",
+    "effectTh": "ได้รับ Mysterious Charm",
+    "notesTh": []
+   }
+  ],
+  "textTh": "ในที่สุดคุณก็มาถึงจุดนี้ได้ คุณอาจต้องใช้สิ่งเหล่านี้สักอย่างในการต่อสู้ครั้งสุดท้าย",
+  "requirementTh": null
+ },
+ {
+  "slug": "second-chance",
+  "name": "Second Chance",
+  "image": "/images/event/second_chance.png",
+  "tier": 4,
+  "text": "A mysterious trainer approaches. She says, \"Don't give up now. You have potential. Take this.\"",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Accept a life and a trinket",
+    "effect": "Get a Super Rare trinket gift",
+    "notes": [],
+    "labelTh": "รับชีวิตเพิ่มและทริงเก็ต",
+    "effectTh": "รับของขวัญทริงเก็ตระดับหายากมาก",
+    "notesTh": []
+   },
+   {
+    "label": "Accept a life and a monster",
+    "effect": "Gain a random level 2 Super Rare monster",
+    "notes": [],
+    "labelTh": "รับชีวิตเพิ่มและมอนสเตอร์",
+    "effectTh": "ได้รับมอนสเตอร์ระดับหายากมากเลเวล 2 แบบสุ่ม",
+    "notesTh": []
+   },
+   {
+    "label": "Accept a life and a charm",
+    "effect": "Gain Mysterious Charm",
+    "notes": [],
+    "labelTh": "รับชีวิตเพิ่มและเครื่องราง",
+    "effectTh": "ได้รับ Mysterious Charm",
+    "notesTh": []
+   }
+  ],
+  "textTh": "เทรนเนอร์ลึกลับคนหนึ่งเดินเข้ามาหาคุณ แล้วพูดว่า \"อย่าเพิ่งยอมแพ้ตอนนี้ เธอมีแววนะ รับนี่ไปสิ\"",
+  "requirementTh": null
+ }
+]

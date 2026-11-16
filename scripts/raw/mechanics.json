@@ -1,0 +1,636 @@
+[
+ {
+  "slug": "ability-disable",
+  "name": "Ability Disable",
+  "summary": "Ability Disable turns off the targeted ability without stopping the Batomon's ordinary stat cast.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Normal Celestia disables every Ongoing Batomon in its row on both teams; Shiny Celestia targets enemies in that row.",
+     "A disabled Ongoing ability stops contributing its modifier and a disabled On Cast ability does not resolve.",
+     "The affected Batomon still performs ordinary Damage, Heal, Shield, and status casts from its stats."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "adjacency-and-targeting",
+  "name": "Adjacency & Targeting",
+  "summary": "The six-slot 3×2 board uses orthogonal adjacency; diagonals are not adjacent.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Slots touching above, below, left, or right are adjacent; diagonal slots are not.",
+     "Front and behind follow the same three-slot row. Above and below follow the same column.",
+     "Opposite targets the mirrored slot on the enemy board.",
+     "Link Cable is the explicit exception that considers every Batomon on your team adjacent to each other."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "burn",
+  "name": "Burn",
+  "summary": "Burn deals stacking damage twice per second, then loses one stack.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Each base Burn tick deals damage equal to the current Burn stack count.",
+     "After each Burn damage tick, Burn loses 1 stack.",
+     "If Shield is present, Burn damage is reduced by 15% before Shield absorbs it."
+    ]
+   },
+   {
+    "heading": "Example: 4 Burn",
+    "ordered": true,
+    "paragraphs": [],
+    "items": [
+     "At 0.5 seconds: deal 4, then fall to 3 Burn.",
+     "At 1.0 seconds: deal 3, then fall to 2 Burn.",
+     "Continue every 0.5 seconds until no Burn remains."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "charge",
+  "name": "Charge",
+  "summary": "Charge advances a Batomon toward its next cast by the stated number of seconds.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Charge adds the printed number of seconds to current cast progress.",
+     "At the next cooldown check, reaching the cooldown queues one sequence, resets progress, and discards excess Charge. If Knockout cancels that timed cast before it executes, the game can restore the spent progress.",
+     "For a 1-second cooldown, one 3-second Charge starts one sequence, not three. With Multicast 1, that means one cast; no 2-second remainder survives.",
+     "Multicast still controls the number of casts within that sequence. Extra casts from Multicast are not extra cooldown completions from excess Charge.",
+     "Charge does not reset or change base cooldown, added cooldown, or Cooldown Speed.",
+     "Dracana and Ironcore cannot receive Charge, including from other sources."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "cooldown-speed",
+  "name": "Cooldown Speed",
+  "summary": "Cooldown Speed divides a Batomon's base cooldown. Non-negative cooldown additions apply afterward.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "More Cooldown Speed makes a Batomon cast more often.",
+     "With no added cooldown, +100% Cooldown Speed turns a 6-second base cooldown into 3 seconds.",
+     "A Batomon's effective cooldown cannot go below 0.1 seconds.",
+     "The game rounds the effective cooldown to the nearest 0.1 seconds, then applies the 0.1-second minimum. The card and the battle use the same rounded value.",
+     "Charge advances current cast progress; it does not change base cooldown, added cooldown, or Cooldown Speed."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "damage",
+  "name": "Damage",
+  "summary": "Damage breaks Shield first, then lowers the enemy team's shared HP.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "A Batomon's Damage stat deals direct damage; Burn, Poison, Shock, and Sudden Death are separate damage sources.",
+     "Shield absorbs incoming Damage before that Damage reaches team HP.",
+     "On the same tick, Shield resolves before Damage."
+    ]
+   },
+   {
+    "heading": "Damage path",
+    "ordered": true,
+    "paragraphs": [],
+    "items": [
+     "Apply Shield gained on that tick.",
+     "Subtract Damage from Shield.",
+     "Send any remaining Damage to shared team HP."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "debuff-removal",
+  "name": "Debuff Removal",
+  "summary": "Debuff-removal effects remove the exact flat stacks or percentage printed by the current effect.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "At Level 1, Runerock removes up to 15 Burn, Poison, and Shock from its team when it casts.",
+     "At Level 1, Sirenade removes 20% of each of those debuffs and rounds each removal up to a whole stack.",
+     "When two Sirenades cast on the same tick, the second one takes its percentage of the stacks that remain after the first removal.",
+     "The flat and percentage versions are different effects; use the exact current text."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "evolution",
+  "name": "Evolution",
+  "summary": "Evolution changes a Batomon when that species' exact current trigger is satisfied.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Some current Batomon evolve at a level threshold, including Panbud at Level 3.",
+     "Ignit's On Victory ability evolves it.",
+     "Pipskull evolves at the next shop after three of its own Knockouts if you do not already own Ratacomb.",
+     "Emberpaw, Sproutquill, and Fernfowl advance their evolution progress on the active team, not from the bench.",
+     "Evolution timing, restrictions, and target are species-specific."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "heal",
+  "name": "Heal",
+  "summary": "Heal restores shared team HP after same-tick offensive effects resolve.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Heal restores team HP; Batomon do not have separate personal HP bars.",
+     "Heal cannot raise team HP above that battle's maximum.",
+     "For casts on the same tick, Heal resolves after Shield, Damage, and status application.",
+     "Same-tick Heal can restore HP after lethal Damage has resolved, before the winner is checked.",
+     "After lethal Damage, Heal adds to the team's HP below 0, not to 0. The HP bar shows 0 until the total is above 0 again."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "knockout",
+  "name": "Knockout",
+  "summary": "Knockout effects defeat the exact Batomon named by the effect, unless Protect prevents it.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Current effects can Knockout their source, adjacent allies, or selected enemies according to their exact target text.",
+     "Protect prevents a Knockout and loses 1 stack when it does.",
+     "A Knocked Out Batomon stops normal casts and no longer contributes Ongoing effects. A late-priority cast can still resolve if it became due while that Batomon was alive.",
+     "Aerophim can revive a knocked-out ally while transforming it."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "levels-and-merging",
+  "name": "Levels & Merging",
+  "summary": "Standard merges use three Level 1 copies for Level 2, then two Level 2 copies for Level 3.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "An ordinary Level 1 merge needs three copies in the same merge group. Swoonet needs two copies. Grow Lamp reduces the requirement for Grass Batomon.",
+     "Two Level 2 Batomon in the same merge group combine into one Level 3 Batomon.",
+     "Ordinary merges stop at Level 3. Special level-up effects can reach Level 4. Swoonet merges beyond Level 4, and Kappow can gain more levels after victories.",
+     "Current level values can change cooldown, Multicast, stats, and ability numbers by level.",
+     "Added types survive a merge, and any shiny ingredient makes the result shiny."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "monster-pool",
+  "name": "Monster pool & shop",
+  "summary": "A normal shop has five slots, uses rank-based rarity odds, and rolls from your run's species roster.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "A normal shop has five slots. Four offer Batomon. The fifth offers an eligible Item when the Item budget allows it, or a Batomon otherwise. Berroon's banked Berries and the Witch's daily Potion can keep that slot active after the usual budget is spent.",
+     "Potions are a separate pool of 15 Items. Only the Witch brings them: her first shop each day has a Potion in the Item slot. A normal Item roll never offers a Potion. She does not brew the previous day's Potion again when another Potion is possible. While a Potion Pack shop is active, you cannot lock the shop.",
+     "The shop greys out an Item that would do nothing, and you cannot buy it. Voucher and Coupon need a Batomon offer on the shelf, and Battery Pack needs an Electric Batomon on your team or bench. The Item slot does not roll an Item that needs a Batomon offer when the shelf has none. Green Stone does not appear while your team or bench has a Common Batomon at Level 4 or higher.",
+     "The daily Item budget starts at 1. Berries refund their use. Mini Rainbow, Rainbow, and Portal Potions also refund their use when they work. Tote Bag adds 2 uses today, and Membership Card adds 1 each day. Berroon banks Berry offers rather than extra daily uses."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "multicast",
+  "name": "Multicast",
+  "summary": "Multicast is the total number of consecutive casts in one activation.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Multicast 2 means two total casts, not two additional casts.",
+     "Consecutive Multicast repeats are spaced 0.1 seconds apart.",
+     "Each repeat is another cast, so On Cast resolves for each cast in the sequence.",
+     "Queued repeats normally stop at Knockout. A late-priority cast that became due while alive can still resolve on that tick."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "on-battle-start",
+  "name": "On Battle Start",
+  "summary": "On Battle Start abilities resolve before normal timed casts begin.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "On Battle Start abilities resolve before normal timed casts, with higher-priority start effects resolving first.",
+     "Knocked-out or ability-disabled Batomon do not resolve their normal On Battle Start activation.",
+     "Effects can explicitly activate On Battle Start abilities additional times.",
+     "Coffee adds one activation for the next battle; Draconarch activates adjacent allies' On Battle Start abilities when it casts."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "on-bought",
+  "name": "On Bought",
+  "summary": "On Bought effects activate when a Batomon's acquisition counts as a purchase.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "An ordinary shop purchase activates On Bought once, plus any additional activations from effects such as Echo Charm.",
+     "If the purchase causes merges, On Bought waits for the merge chain. It uses the surviving Batomon's On Bought ability and resulting level.",
+     "Echo Charm adds one activation. The game adds these repeat bonuses to the normal single activation.",
+     "Not every acquisition counts as a purchase. Lootbox and Recruiting Flyer use the non-purchase path; Voucher explicitly counts as a purchase.",
+     "An effect can explicitly activate On Bought without a new purchase. Gemwing does this to the ally above when Gemwing casts.",
+     "Gemwing activates that ability 1, 2, 3, or 12 times at Levels 1–4, multiplied by one plus the On Bought repeat bonuses.",
+     "On Bought is separate from effects that react when another Batomon is bought. It is not an ordinary cooldown cast."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "on-cast",
+  "name": "On Cast",
+  "summary": "On Cast resolves whenever that Batomon performs a cast.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "An On Cast ability resolves when its own Batomon casts and that ability is enabled.",
+     "Multicast repeats the cast, so On Cast resolves for every cast in that Multicast sequence.",
+     "Cooldown Speed and Charge can move the next timed cast earlier without changing the printed On Cast effect."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "on-victory",
+  "name": "On Victory",
+  "summary": "On Victory normally activates after the player's team wins. Some effects can also activate it directly.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Pompummel activates the ally above's On Victory ability when Pompummel casts. This activation does not require a new victory. It skips a silenced or knocked-out ally. If the activation evolves the ally, the battle continues with the evolved ability.",
+     "A loss does not activate the normal On Victory phase. Sarudo's On Battle Lost effect can still activate adjacent allies' On Victory abilities.",
+     "The normal post-battle phase applies On Victory rewards after a win. After each battle, Black Belt activates a lone Fighting Batomon's On Victory ability, also after a loss. After a win, this is a second activation. It skips a Batomon that is silenced when the battle ends.",
+     "If both teams end the same tick at 0 HP or less, the result is recorded as a win for the player."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ongoing",
+  "name": "Ongoing",
+  "summary": "Ongoing abilities apply without waiting for a cast and recalculate as active effects change.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "An Ongoing ability contributes while its source is active; Knocked-out and ability-disabled sources stop contributing.",
+     "Level 1 Onsetra makes the ally behind apply its Ongoing ability one additional time.",
+     "Normal Celestia disables every Ongoing Batomon in its row on both teams at battle start.",
+     "Disabling an Ongoing ability does not prevent that Batomon's ordinary cast."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "permanent-vs-battle-only",
+  "name": "Permanent vs Battle-only",
+  "summary": "Permanent effects carry into later battles; effects marked for this battle expire afterward.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "A change explicitly marked permanently remains on that Batomon across later battles in the run.",
+     "A change marked for this battle ends after that battle.",
+     "Magic Lasso's exact copy retains level, shiny state, permanent bonuses, added types, and tracked progress. It targets the next opponent's top-middle Batomon, or the first occupied slot if that slot is empty.",
+     "A transformation can be persistent or battle-only, but it is still the same Batomon and keeps its persistent state."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "poison",
+  "name": "Poison",
+  "summary": "Poison deals steady stacking damage once per second without natural decay.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Poison deals damage equal to its current stack count once per second.",
+     "Poison does not decay after dealing damage.",
+     "Poison does not ignore Shield: if Shield is present, Poison damage is reduced by 15% before Shield absorbs it."
+    ]
+   },
+   {
+    "heading": "Example: 4 Poison",
+    "ordered": true,
+    "paragraphs": [],
+    "items": [
+     "At 1 second: deal 4 Poison damage and keep 4 stacks.",
+     "At 2 seconds: deal 4 again and keep 4 stacks."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "protect",
+  "name": "Protect",
+  "summary": "Protect prevents a Knockout and spends one stack when it triggers.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "When a protected Batomon would be Knocked Out, Protect prevents that Knockout.",
+     "Protect decreases by 1 when triggered.",
+     "Protect does not prevent team HP from reaching zero and does not replace Shield."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "same-tick-resolution",
+  "name": "Same-tick Resolution",
+  "summary": "Queued effects resolve in the order Shield, Damage, status application, then Heal. Some abilities have separate same-tick priorities.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "First: apply Shield.",
+     "Second: resolve Damage.",
+     "Third: apply status effects.",
+     "Fourth: resolve Heal.",
+     "If both teams end that tick at 0 HP or less, the player receives the win."
+    ]
+   },
+   {
+    "heading": "Order of queued effects",
+    "ordered": true,
+    "paragraphs": [],
+    "items": [
+     "Shield",
+     "Damage",
+     "Apply status effects",
+     "Heal"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "shield",
+  "name": "Shield",
+  "summary": "Shield is a temporary layer that absorbs incoming damage before shared team HP.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Shield absorbs direct Damage before team HP.",
+     "If a team has Shield when Burn, Poison, or Shock damage lands, that status damage is reduced by 15% before Shield absorbs it.",
+     "Shield is separate from Protect: Shield absorbs damage, while Protect prevents Knockout."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "shiny",
+  "name": "Shiny",
+  "summary": "Shiny Batomon use their own current stats and ability values rather than one universal multiplier.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "A shiny variant can have different level stats, ability text, or ability values from its normal variant.",
+     "Compare the exact normal and shiny entries for that Batomon; there is no single multiplier that describes every shiny.",
+     "If any ingredient in a merge is shiny, the merged result is shiny.",
+     "Shiny Berry chooses a random non-shiny Batomon that has a shiny form."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "shock",
+  "name": "Shock",
+  "summary": "Direct Damage triggers a separate Shock hit equal to the target's Shock stacks; Shock stays until removed.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "When direct Damage hits a team with Shock, Shock deals a separate hit equal to the current Shock stack count.",
+     "That Shock hit resolves before the direct hit, so it reaches Shield first.",
+     "Shock applied by a cast does not affect that same cast's direct Damage because status application follows Damage.",
+     "Shock does not decay naturally.",
+     "Burn, Poison, Shock, and Sudden Death damage do not trigger another Shock hit.",
+     "If Shield is present, the triggered Shock hit is reduced by 15% before Shield absorbs it."
+    ]
+   },
+   {
+    "heading": "Direct hit example",
+    "ordered": false,
+    "paragraphs": [
+     "This example has no damage modifiers. Shock resolves first as a separate hit and does not trigger another Shock hit."
+    ],
+    "items": []
+   }
+  ]
+ },
+ {
+  "slug": "stat-caps",
+  "name": "Stat Caps",
+  "summary": "Combat output stats, their percentage bonuses, Cooldown Speed, and the stat-gain multiplier use the 999,999,999 cap.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Cooldown Speed and the stat-gain multiplier also use this cap. String-based values, such as bonus Sell Value, use separate rules.",
+     "Those capped combat stats cannot increase beyond 999,999,999.",
+     "Cooldown and Multicast use separate rules: effective cooldown has a 0.1-second minimum and Multicast has a minimum of 1.",
+     "The combat-stat cap does not establish a cap for team HP, gold, shop values, or unrelated systems."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "sudden-death",
+  "name": "Sudden Death",
+  "summary": "Sudden Death begins at 30 battle seconds, then a sandstorm damages both teams every 0.5 seconds.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Sudden Death begins when the battle timer reaches 30 seconds.",
+     "The first sandstorm hit follows after 0.5 seconds, and hits continue every 0.5 seconds.",
+     "Damage follows 8 × 2^(seconds active ÷ 3), doubling every 3 seconds.",
+     "Shield absorbs Sudden Death damage, but the 15% Shield reduction for Burn, Poison, and Shock does not apply to it.",
+     "The damage scales continuously while the popup shows a whole-number value."
+    ]
+   },
+   {
+    "heading": "Sandstorm curve",
+    "ordered": false,
+    "paragraphs": [
+     "The curve doubles every 3 active seconds; damage is applied on each 0.5-second tick."
+    ],
+    "items": []
+   }
+  ]
+ },
+ {
+  "slug": "team-hp",
+  "name": "Team HP",
+  "summary": "Each side fights with one shared HP total rather than separate HP for every Batomon.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Damage lowers shared team HP after Shield is exhausted.",
+     "Heal restores shared team HP without exceeding that battle's maximum.",
+     "Shield protects shared team HP by absorbing incoming damage first.",
+     "The HP bar never shows less than 0, but Damage can take the real team HP below 0.",
+     "Same-tick Heal adds to that real value. At 300 HP, 307 Damage leaves -7 HP, so a 30 Heal on that tick leaves 23 HP, not 30.",
+     "The winner check runs after Heal. A team survives the tick only if its real HP is above 0 after Heal.",
+     "If both teams end the same tick at 0 HP or less after ordered effects resolve, the player is awarded the win."
+    ]
+   },
+   {
+    "heading": "Shared defense",
+    "ordered": true,
+    "paragraphs": [],
+    "items": [
+     "Shield absorbs incoming damage.",
+     "Remaining damage lowers the team's HP bar.",
+     "Heal restores that same HP bar after the ordered same-tick effects."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "transformation",
+  "name": "Transformation",
+  "summary": "Transformation changes species while keeping the Batomon's persistent state.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Species changes retain shiny state, permanent bonuses, added types, and tracked progress. The level cannot exceed the new species' maximum.",
+     "A transformation can be persistent, such as a transformation stone, or limited to one battle, such as MissingN.'s battle-start effect.",
+     "MissingN. is a real Batomon in the current catalog, not a placeholder for missing data. Its name includes the final period.",
+     "Aerophim revives adjacent allies, grants permanent Multicast, and transforms them into same-rarity species from the active set, excluding Riglet."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "triggering",
+  "name": "Triggering",
+  "summary": "Trigger effects start the named Batomon's full cast sequence using the effect's exact target.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "A triggered Batomon uses its current Multicast for that cast sequence.",
+     "A Trigger alone does not reset current cooldown progress. The Batomon continues toward its next timed cast.",
+     "A Trigger effect uses its printed target, such as an ally above, adjacent allies, or the Batomon itself.",
+     "Trigger chains keep printed exclusions; Puffloon and Torrantler explicitly exclude other copies of themselves.",
+     "Coffee and Draconarch can activate Berroon's On Battle Start effect in the current build."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "types",
+  "name": "Types",
+  "summary": "Types determine which type-targeted effects include a Batomon and can power unique-type bonuses.",
+  "sections": [
+   {
+    "heading": "How it works",
+    "ordered": false,
+    "paragraphs": [],
+    "items": [
+     "Current effects can target allies by type, including Fire, Water, Electric, Toxic, Flying, Rock, Grass, and Bug.",
+     "Some effects add a type; Chef gives single-typed monsters Fire typing.",
+     "Unique-type effects count distinct team types. A Batomon with the all type contributes every real type, not one extra type.",
+     "Added types remain through both merges and transformations."
+    ]
+   }
+  ]
+ }
+]

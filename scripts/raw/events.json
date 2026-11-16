@@ -1,0 +1,391 @@
+[
+ {
+  "slug": "bug-collector",
+  "name": "Bug Collector",
+  "image": "/images/event/bug_collector.png",
+  "tier": 1,
+  "text": "You run into a bug collector. He offers to share with you one of the bugs he has caught today.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Take the fighter ant",
+    "effect": "Gain a level 2 SHINY Guardiant",
+    "notes": []
+   },
+   {
+    "label": "Take the gold beetle",
+    "effect": "Gain Gildshell with +20 Damage",
+    "notes": []
+   },
+   {
+    "label": "Take the boxing mantis",
+    "effect": "Gain Brawlmantis with +2 Multicast",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "dragons-nest",
+  "name": "Dragons Nest",
+  "image": "/images/event/dragons_nest.png",
+  "tier": 1,
+  "text": "You stumble upon a dragon's hoard. Take something before the dragon comes back!",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Take the egg",
+    "effect": "Gain Dragon Egg",
+    "notes": []
+   },
+   {
+    "label": "Take the sword",
+    "effect": "Gain Hero's Sword",
+    "notes": []
+   },
+   {
+    "label": "Take the coins",
+    "effect": "Gain $20",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "rainbow-berry",
+  "name": "Rainbow Berry",
+  "image": "/images/event/rainbow_berry.png",
+  "tier": 1,
+  "text": "As you wade through the forest, you stumble upon a berry bush. In the bush is a peculiar rainbow berry.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Feed it to a monster",
+    "effect": "Turn a monster SHINY",
+    "notes": [
+     "Target: A non-shiny Batomon with a shiny form"
+    ]
+   },
+   {
+    "label": "Take it",
+    "effect": "Gain Rainbow Berry",
+    "notes": []
+   },
+   {
+    "label": "Sell it at the market",
+    "effect": "Gain $20",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "traveling-merchant",
+  "name": "Traveling Merchant",
+  "image": "/images/event/traveling_merchant.png",
+  "tier": 1,
+  "text": "You meet a traveling merchant. He offers you his strange wares.",
+  "requirement": "Available after 6 completed games.",
+  "options": [
+   {
+    "label": "Take the exotic monster",
+    "effect": "Gain a foreign Rare monster. It can now appear in your shop.",
+    "notes": []
+   },
+   {
+    "label": "Take the strange lens",
+    "effect": "Gain Kaleidoscope",
+    "notes": []
+   },
+   {
+    "label": "Take the dull-looking gem",
+    "effect": "Gain Fake Diamond",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "baby-basilisk",
+  "name": "Baby Basilisk",
+  "image": "/images/event/baby_basilisk.png",
+  "tier": 2,
+  "text": "In the middle of a forest, you come across a crying baby basilisk monster. It seems it has gotten lost from its parents.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Adopt it",
+    "effect": "Gain Ignit",
+    "notes": []
+   },
+   {
+    "label": "Help it find its parents",
+    "effect": "Get a Rare trinket gift",
+    "notes": []
+   },
+   {
+    "label": "Claim the missing Batomon bounty",
+    "effect": "Gain $40",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "fossil-discovery",
+  "name": "Fossil Discovery",
+  "image": "/images/event/fossil_discovery.png",
+  "tier": 2,
+  "text": "You discover a winged fossil deep inside a cave.",
+  "requirement": "Available after 3 completed games.",
+  "options": [
+   {
+    "label": "Take it to a lab and revive it",
+    "effect": "Gain Talonite",
+    "notes": []
+   },
+   {
+    "label": "Keep it",
+    "effect": "Gain Winged Fossil",
+    "notes": []
+   },
+   {
+    "label": "Sell it",
+    "effect": "Gain $40",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "meteor-crash",
+  "name": "Meteor Crash",
+  "image": "/images/event/meteor_crash.png",
+  "tier": 2,
+  "text": "You see a meteor fly through the sky and then crash nearby. You rush over to see the meteor with a glowing gem embed in it.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Touch the glowing gem",
+    "effect": "Level up a level 1 monster",
+    "notes": [
+     "Target: A level 1 Batomon"
+    ]
+   },
+   {
+    "label": "Mine the meteor",
+    "effect": "Gain Meteorite",
+    "notes": []
+   },
+   {
+    "label": "Take some meteor debris and sell it",
+    "effect": "Gain $40",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "pond-fairy",
+  "name": "Pond Fairy",
+  "image": "/images/event/pond_fairy.png",
+  "tier": 2,
+  "text": "As you stroll through the forest, a blue fairy monster emerges from a nearby pond. The fairy says it will grant you a wish.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Wish for fame",
+    "effect": "Increase shop rank by 2",
+    "notes": []
+   },
+   {
+    "label": "Wish for wealth",
+    "effect": "Gain Gold Bar",
+    "notes": []
+   },
+   {
+    "label": "Capture the fairy",
+    "effect": "Gain Wishwash",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "dragon-tamer",
+  "name": "Dragon Tamer",
+  "image": "/images/event/dragon_tamer.png",
+  "tier": 3,
+  "text": "You run into a traveling dragon tamer. He says he has too many dragons to take care of and offers you to adopt one.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Adopt the one with the big horn",
+    "effect": "Gain a SHINY Saberhorn",
+    "notes": []
+   },
+   {
+    "label": "Adopt the one with the crown",
+    "effect": "Gain a SHINY Draconarch",
+    "notes": []
+   },
+   {
+    "label": "Adopt the long one",
+    "effect": "Gain a SHINY Onsetra",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "dryad-statue",
+  "name": "Dryad Statue",
+  "image": "/images/event/dryad_statue.png",
+  "tier": 3,
+  "text": "You explore deep into the woods and find a statue with a glowing gem embedded in its head.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Pray to it",
+    "effect": "Give a monster Grass typing, Gain Dryadell",
+    "notes": [
+     "Target: A Batomon without Grass typing"
+    ]
+   },
+   {
+    "label": "Take the gem",
+    "effect": "Gain Mysterious Gem",
+    "notes": []
+   },
+   {
+    "label": "Gently touch it",
+    "effect": "Gain Dryad's Charm",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "dryad-statue-oshima",
+  "name": "Dryad Statue Oshima",
+  "image": "/images/event/dryad_statue_oshima.png",
+  "tier": 3,
+  "text": "You explore deep into the woods and find a statue with a glowing gem embedded in its head.",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Pray to it",
+    "effect": "Give a monster Grass typing, Gain Ginsage",
+    "notes": [
+     "Target: A Batomon without Grass typing"
+    ]
+   },
+   {
+    "label": "Take the gem",
+    "effect": "Gain Mysterious Gem",
+    "notes": []
+   },
+   {
+    "label": "Gently touch it",
+    "effect": "Gain Dryad's Charm",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "genius-inventor",
+  "name": "Genius Inventor",
+  "image": "/images/event/genius_inventor.png",
+  "tier": 3,
+  "text": "You encounter a genius inventor. He asks if you want to test any of his new inventions.",
+  "requirement": "Available after 5 completed games.",
+  "options": [
+   {
+    "label": "Test the Recombobulator",
+    "effect": "Randomly transform your monsters 1 rarity higher (max Mythical rarity)",
+    "notes": [
+     "Resolves at the start of the next shop."
+    ]
+   },
+   {
+    "label": "Test the Shockify Ray",
+    "effect": "Give a monster Electric typing and +5 Shock",
+    "notes": [
+     "Target: A Batomon without Electric typing"
+    ]
+   },
+   {
+    "label": "Test the Gold-o-matic",
+    "effect": "Gain Gold-o-matic",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "professor-encounter",
+  "name": "Professor Encounter",
+  "image": "/images/event/professor_encounter.png",
+  "tier": 3,
+  "text": "You run into a monster professor who's out doing research. He asks if there is anything you need help with?",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Get advice on monster training",
+    "effect": "Level up a monster (max level 4)",
+    "notes": [
+     "Target: A Batomon below level 4"
+    ]
+   },
+   {
+    "label": "Ask about his research",
+    "effect": "Gain Research Notes",
+    "notes": []
+   },
+   {
+    "label": "Get investment advice",
+    "effect": "Gain $60",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "endless-boss-prep",
+  "name": "Endless Boss Prep",
+  "image": "/images/event/endless_boss_prep.png",
+  "tier": 4,
+  "text": "You've finally made it this far. You might need one of these for the final battle",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Take the dragon",
+    "effect": "Gain a level 2 SHINY Celestia",
+    "notes": []
+   },
+   {
+    "label": "Take the statue",
+    "effect": "Gain a level 4 SHINY Cherubble",
+    "notes": []
+   },
+   {
+    "label": "Take the charm",
+    "effect": "Gain Mysterious Charm",
+    "notes": []
+   }
+  ]
+ },
+ {
+  "slug": "second-chance",
+  "name": "Second Chance",
+  "image": "/images/event/second_chance.png",
+  "tier": 4,
+  "text": "A mysterious trainer approaches. She says, \"Don't give up now. You have potential. Take this.\"",
+  "requirement": null,
+  "options": [
+   {
+    "label": "Accept a life and a trinket",
+    "effect": "Get a Super Rare trinket gift",
+    "notes": []
+   },
+   {
+    "label": "Accept a life and a monster",
+    "effect": "Gain a random level 2 Super Rare monster",
+    "notes": []
+   },
+   {
+    "label": "Accept a life and a charm",
+    "effect": "Gain Mysterious Charm",
+    "notes": []
+   }
+  ]
+ }
+]
