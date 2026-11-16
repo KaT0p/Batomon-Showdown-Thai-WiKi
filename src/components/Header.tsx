@@ -21,8 +21,10 @@ export default function Header() {
     <header className="site-header">
       <div className="container inner">
         <Link href="/" className="brand">
-          <span className="logo">TH</span>
-          <span>Batomon Wiki</span>
+          <img src="/brand/logo-mark.svg" alt="" width={36} height={36} />
+          <span className="brand-text">
+            Batomon Wiki <span className="brand-th">ภาษาไทย</span>
+          </span>
         </Link>
         <nav className="main-nav" aria-label="เมนูหลัก">
           {NAV.map((n) => (

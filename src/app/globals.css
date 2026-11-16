@@ -75,12 +75,19 @@ img.pixel {
 .brand:hover {
   text-decoration: none;
 }
-.brand .logo {
-  background: linear-gradient(135deg, var(--accent), #ff7a3d);
-  color: #1a1206;
-  border-radius: 8px;
-  padding: 2px 8px;
-  font-size: 0.85rem;
+.brand img {
+  width: 36px;
+  height: 36px;
+  flex: none;
+}
+.brand-th {
+  color: var(--accent);
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .brand-text {
+    display: none;
+  }
 }
 .main-nav {
   display: flex;

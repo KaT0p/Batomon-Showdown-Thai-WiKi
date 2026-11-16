@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26385a"/>
+      <stop offset="1" stop-color="#0f141d"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd54a"/>
+      <stop offset="1" stop-color="#ff8a3d"/>
+    </linearGradient>
+    <linearGradient id="horn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3c4"/>
+      <stop offset="1" stop-color="#ffc23d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- พื้นหลัง -->
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <circle cx="256" cy="282" r="196" fill="#ffcb3d" opacity="0.08"/>
+
+  <!-- เขา -->
+  <path d="M168 196 C150 150 160 104 196 82 C196 124 214 156 238 176 Z" fill="url(#horn)" stroke="#1a1206" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M344 196 C362 150 352 104 316 82 C316 124 298 156 274 176 Z" fill="url(#horn)" stroke="#1a1206" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- ตัว -->
+  <path d="M256 160 C364 160 424 230 424 304 C424 384 352 432 256 432 C160 432 88 384 88 304 C88 230 148 160 256 160 Z"
+        fill="url(#body)" stroke="#1a1206" stroke-width="14"/>
+  <!-- แสงสะท้อน -->
+  <path d="M150 238 C170 206 204 190 236 186" fill="none" stroke="#fff6d6" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- ตา -->
+  <ellipse cx="200" cy="296" rx="30" ry="38" fill="#1a1206"/>
+  <ellipse cx="312" cy="296" rx="30" ry="38" fill="#1a1206"/>
+  <circle cx="210" cy="282" r="11" fill="#ffffff"/>
+  <circle cx="322" cy="282" r="11" fill="#ffffff"/>
+
+  <!-- ปากพร้อมเขี้ยว -->
+  <path d="M224 362 Q256 384 288 362" fill="none" stroke="#1a1206" stroke-width="12" stroke-linecap="round"/>
+  <path d="M272 369 L280 390 L288 364 Z" fill="#ffffff" stroke="#1a1206" stroke-width="6" stroke-linejoin="round"/>
+</svg>

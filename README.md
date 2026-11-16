@@ -51,3 +51,10 @@ python3 scripts/build_data.py
 
 นี่เป็นเว็บแฟนเมดที่ไม่เกี่ยวข้องกับผู้พัฒนาเกมอย่างเป็นทางการ รูปภาพ ชื่อ และข้อมูลในเกมเป็นลิขสิทธิ์ของผู้พัฒนา Batomon Showdown
 ข้อมูลรวบรวมจาก batomon.com ก่อนเผยแพร่สาธารณะ ควรตรวจสอบเงื่อนไขการใช้งานของผู้พัฒนาเกมและเว็บต้นทาง
+
+## โลโก้และไอคอน
+
+ต้นฉบับอยู่ที่ `public/brand/logo-mark.svg` (สัญลักษณ์) และ `public/brand/logo.svg` (โลโก้เต็ม)
+ถ้าแก้ไฟล์ต้นฉบับ ให้รัน `node scripts/make_icons.mjs` เพื่อสร้างใหม่ทั้งหมด:
+`src/app/favicon.ico` (16/32/48/64px), `icon.svg`, `apple-icon.png`, `opengraph-image.png`
+และ `public/brand/icon-192.png`, `icon-512.png`, `logo.png`
